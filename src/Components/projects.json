@@ -56,6 +56,7 @@
       },
       {
         "id": "5",
+        "screenshot": "/Screenshots/afrobeatsquiz-screenshot.png",
         "netlify": "https://theafrobeatsquiz.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-survey",
         "title": "The Afrobeats Quiz",
@@ -67,6 +68,7 @@
       },
       {
         "id": "6",
+        "screenshot": "/Screenshots/flixlist-screenshot.png",
         "netlify": "https://antonia-andreas-movie-site.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-movies",
         "title": "FlixList",
@@ -80,6 +82,7 @@
       },
       {
         "id": "7",
+        "screenshot": "/Screenshots/designhandoff-screenshot.png",
         "netlify": "https://santulanpoweryoga-antonia.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-design-handoff",
         "title": "Design Hand-off",
@@ -91,6 +94,7 @@
       },
       {
         "id": "8",
+        "screenshot": "/Screenshots/reduxquiz-screenshot.png",
         "netlify": "https://antonias-reactquiz.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-redux-quiz",
         "title": "React-Redux Quiz",
@@ -103,6 +107,7 @@
       },
       {
         "id": "9",
+        "screenshot": "/Screenshots/todo-screenshot.png",
         "netlify": "https://antonias-todoapp.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-todo",
         "title": "ToDo App",
@@ -115,6 +120,7 @@
       },
       {
         "id": "10",
+        "screenshot": "/Screenshots/labyrinth-screenshot.png",
         "netlify": "https://liongroupmazerunner.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-labyrinth",
         "title": "The Labyrinth",
@@ -132,6 +138,7 @@
       },
       {
         "id": "11",
+        "screenshot": "/Screenshots/expressapi-screenshot.png",
         "netlify": "https://itsalaries2020.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "IT Salaries 2020",
