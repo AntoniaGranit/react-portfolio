@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { LandingSection } from './Sections/LandingSection';
+import { TechSection } from './Sections/TechSection';
+import { ProjectsSection } from './Sections/ProjectsSection';
+import { SkillSection } from './Sections/SkillSection';
+import { ContactSection } from './Sections/ContactSection';
 
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <LandingSection />
+      <TechSection />
+      <ProjectsSection />
+      <SkillSection />
+      <ContactSection />
     </div>
   )
 }

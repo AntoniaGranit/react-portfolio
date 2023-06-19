@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const ContactMe = () => {
+export const ProjectsSection = () => {
   return (
     <div>
-      Contact
+      My Projects
     </div>
   )
 }

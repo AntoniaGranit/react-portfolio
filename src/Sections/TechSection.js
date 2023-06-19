@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Tech = () => {
+export const TechSection = () => {
   return (
     <div>
       Tech!
