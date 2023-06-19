@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "screenshot": "chatbot-screenshot.png",
+        "screenshot": "/Screenshots/chatbot-screenshot.png",
         "netlify": "https://antoniastravelbot.netlify.app/",
         "github": "https://github.com/AntoniaGranit/project-chatbot",
         "title": "TravelBot",
@@ -14,6 +14,7 @@
       },
       {
         "id": "2",
+        "screenshot": "/Screenshots/guesswho-screenshot.png",
         "netlify": "https://antoniasguesswho.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-guess-who",
         "title": "Guess Who-game",
@@ -26,6 +27,7 @@
       },
       {
         "id": "3",
+        "screenshot": "/Screenshots/weatherapp-screenshot.png",
         "netlify": "https://ajmalandantoniasweatherapp.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-weather-app",
         "title": "Weather App",
@@ -40,6 +42,7 @@
       },
       {
         "id": "4",
+        "screenshot": "/Screenshots/musicreleases-screenshot.png",
         "netlify": "https://hilarious-moonbeam-f0ccd7.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-music-releases",
         "title": "Music Releases",
