@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import ColoredBlob from '../Assets/colored-blob2.jpg'
 
-export const Left = styled.div`
+export const LeftContainer = styled.div`
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -19,18 +20,18 @@ export const RightImage = styled.div`
     right: 0;
     height: 100vh;
     left: 50%;
-    background-image: url(Assets/coloured-blob.jpg);
+    background-image: url(${ColoredBlob});
     background-size: cover;
 `
 
 /* SCROLL BUTTON */
-export const ScrollIconDiv = styled.div`
-    position: absolute;
-    width: 138px;
-    height: 138px;
-    left: calc(50% - 138px / 2);
-    top: 77%;
-`
+// export const ScrollIconDiv = styled.div`
+//     position: absolute;
+//     width: 138px;
+//     height: 138px;
+//     left: calc(50% - 138px / 2);
+//     top: 77%;
+// `
 
 // export const ScrollIcon = styled.img`
 //     /* this makes the scroll button bounce */

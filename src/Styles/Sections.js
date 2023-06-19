@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FirstSection = styled.section`
+export const LandingSectionContainer = styled.section`
     display: flex;
     width: 100%;
     height: 100vh;
