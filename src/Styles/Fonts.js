@@ -26,7 +26,7 @@ export const DigitalDesigner = styled.h3`
     color: #050d50;
 `
 
-export const BigTiele = styled.h1`
+export const BigTitle = styled.h1`
     font-family: SatoshiBlack;
     font-style: normal;
     font-weight: 700;

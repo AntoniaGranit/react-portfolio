@@ -7,7 +7,7 @@ export const LandingSectionContainer = styled.section`
     background-color: rgb(255, 246, 240);
 `
 
-export const TechSection = styled.section`
+export const TechContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@ export const TechSection = styled.section`
     padding-bottom: 350px;
 `
 
-export const ProjectSection = styled.section`
+export const ProjectContainer = styled.section`
     display: flex;
     flex-direction: column;
     padding-top: 100px;
@@ -24,7 +24,7 @@ export const ProjectSection = styled.section`
     background-color: rgb(255, 251, 247);
 `
 
-export const Skills = styled.section`
+export const SkillsContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@ export const Skills = styled.section`
     padding-bottom: 150px;
 `
 
-export const Contact = styled.section`
+export const ContactContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
