@@ -14,9 +14,14 @@ export const SkillsLists = styled.div`
     margin-top: 50px;
 `
 
-export const Skills = styled.li`
-    margin-top: 14px;
+export const SkillsUl = styled.ul`
     font-family: "Outfit";
     font-size: 19px;
     line-height: 32px;
+`
+
+export const SkillsLi = styled.li`
+    margin-bottom: 15px;
+    font-family: "Outfit";
+    font-size: 19px;
 `
