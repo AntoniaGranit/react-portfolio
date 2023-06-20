@@ -36,7 +36,7 @@ export const SoMeIconContainer = styled.div`
     width: 190px;
     height: 40px;
 
-&i {
+i {
     transition: transform 0.2s ease-in-out;
     color: black;
 
