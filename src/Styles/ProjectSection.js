@@ -32,6 +32,13 @@ export const ProjectScreenshot = styled.img`
     width: 190px;
     border-radius: 10px;
 `
+export const CodeLanguageContainer = styled.div`
+display: flex;
+flex-direction: row;
+gap: 10px;
+margin-top: 24px;
+margin-bottom: 40px;
+`
 
 export const ProjectButtons = styled.div`
     display: flex;

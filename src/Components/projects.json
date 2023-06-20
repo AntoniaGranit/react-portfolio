@@ -124,7 +124,7 @@
         "netlify": "https://liongroupmazerunner.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-labyrinth",
         "title": "The Labyrinth",
-        "description": "A 8-bit-style labyrinth game created with React, Redux and a game API from our bootcamp.",
+        "description": "An 8-bit-style labyrinth game created with React, Redux and a game API from our bootcamp. Created with fellow Technigo students Sara Battilotti and Ajmal Zahir.",
         "collaborator": [
             "https://github.com/AjmalZ",
             "https://github.com/SaraBat"
@@ -142,7 +142,7 @@
         "netlify": "https://itsalaries2020.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "IT Salaries 2020",
-        "description": "A RESTful API built using Node.js and Express, my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router.",
+        "description": "A RESTful API built using Node.js and Express, and my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router.",
         "codelanguages": [
           "Node.js",
           "Express",

@@ -1,7 +1,7 @@
 import React from 'react';
-import { ProjectWrapper, ProjectInformation, ProjectTitle, ProjectScreenshot, ProjectButtons } from '../Styles/ProjectSection';
+import { ProjectWrapper, ProjectInformation, ProjectTitle, ProjectScreenshot, CodeLanguageContainer, ProjectButtons } from '../Styles/ProjectSection';
 import { Paragraph, CodeLanguages, BlackTitle, Black } from '../Styles/Fonts';
-import { LiveDemoButton, ViewCodeButton } from '../Styles/Buttons';
+import { ProjectButton } from '../Styles/Buttons';
 
 export const SingleProject = ({ project }) => {
   return (
@@ -14,25 +14,27 @@ export const SingleProject = ({ project }) => {
         </ProjectTitle>
 
         <Paragraph>{project.description}</Paragraph>
-        {project.codelanguages.map((language) => (
-          <CodeLanguages><Black>{language}</Black></CodeLanguages>
-        ))}
+        <CodeLanguageContainer>
+          {project.codelanguages.map((language) => (
+            <CodeLanguages><Black key={language}>{language}</Black></CodeLanguages>
+          ))}
+        </CodeLanguageContainer>
         <ProjectButtons>
           <a
             href={project.netlify}
             target="_blank"
             rel="noreferrer">
-            <LiveDemoButton type="submit">
-              <i className="fa fa-globe" />Live demo
-            </LiveDemoButton>
+            <ProjectButton netlify type="button">
+              <i className="fa fa-globe" />Live
+            </ProjectButton>
           </a>
           <a
             href={project.github}
             target="_blank"
             rel="noreferrer">
-            <ViewCodeButton type="submit">
-              <i className="fa fa-github" />View code
-            </ViewCodeButton>
+            <ProjectButton github type="button">
+              <i className="fa fa-github" />Code
+            </ProjectButton>
           </a>
         </ProjectButtons>
       </ProjectInformation>

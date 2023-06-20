@@ -63,8 +63,6 @@ export const Pink = styled.mark`
 export const CodeLanguages = styled.p`
     font-family: SatoshiMedium;
     font-size: 16px;
-    margin-top: 24px;
-    margin-bottom: 40px;
 `
 
 export const Black = styled.mark`
