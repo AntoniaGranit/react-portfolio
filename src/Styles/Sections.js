@@ -5,6 +5,7 @@ export const LandingSectionContainer = styled.section`
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 246, 240);
+    top: 0;
 `
 
 export const TechContainer = styled.section`
