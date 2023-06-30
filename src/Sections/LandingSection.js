@@ -3,7 +3,7 @@ import React from 'react';
 import { LeftContainer, RightImage, AntoniaInfo, AntoniaHeader, AntoniaTitleText, AntoniaHeaderInfo, SocialMediaIcons } from '../Styles/LandingSection';
 import { AntoniaGranit, BlackTitle, DigitalDesigner, Paragraph } from '../Styles/Fonts';
 import { LandingSectionContainer } from '../Styles/Sections';
-import { ProfilePicture } from '../Styles/ProfilePicture';
+import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture';
 import Portrait from '../Assets/portrait_antonia.jpg';
 
 export const LandingSection = () => {
@@ -12,11 +12,11 @@ export const LandingSection = () => {
       <LeftContainer>
         <AntoniaInfo>
           <AntoniaHeader>
-            <div className="portrait-photo-div">
+            <ProfilePictureDiv>
               <ProfilePicture
                 src={Portrait}
                 alt="Portrait of Antonia Granit" />
-            </div>
+            </ProfilePictureDiv>
             <AntoniaTitleText>
               <AntoniaGranit>Antonia Granit</AntoniaGranit>
               <BlackTitle>Frontend Developer</BlackTitle>

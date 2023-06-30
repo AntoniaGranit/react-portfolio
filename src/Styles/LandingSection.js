@@ -9,12 +9,20 @@ export const LeftContainer = styled.div`
     padding: 0;
     left: 0;
     top: 0;
-    width: 50%;
+    width: 92%;
     height: 100vh;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        width: 100%; 
+    }
+
+    @media (min-width: 1024px) {
+        width: 50%;
+    }
 `
 
 export const RightImage = styled.div`
-    display: flex;
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -22,56 +30,67 @@ export const RightImage = styled.div`
     left: 50%;
     background-image: url(${ColoredBlob});
     background-size: cover;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        display: none; 
+    }
+
+    @media (min-width: 1024px) {
+        display: flex;
+    }
 `
-
-/* SCROLL BUTTON */
-// export const ScrollIconDiv = styled.div`
-//     position: absolute;
-//     width: 138px;
-//     height: 138px;
-//     left: calc(50% - 138px / 2);
-//     top: 77%;
-// `
-
-// export const ScrollIcon = styled.img`
-//     /* this makes the scroll button bounce */
-//     animation: bounce 1s infinite alternate;
-// `
-
-//   @keyframes bounce {
-//     0% {
-//       transform: translateY(0);
-//     }
-//     100% {
-//       transform: translateY(20px);
-//     }
-//   }
 
 export const AntoniaInfo = styled.div`
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 95%;
     height: 400px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-left: 7%;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        margin: auto;
+    }
+
+    @media (min-width: 1024px) {
+        width: 85%;
+        margin: auto;
+        margin-top: 15%;
+    }
 `
 
 export const AntoniaHeader = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 25px;
-    height: 164px;
+    height: 250px;
     padding-bottom: 20px;
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        height: 164px;
+    }
 `
 
 export const AntoniaTitleText = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 
 export const AntoniaHeaderInfo = styled.div`
     display: flex;
+    padding-bottom: 40px;
+
+    @media (min-width: 1024px) {
+        padding-bottom: 40px;
+    }
 `
 
 export const SocialMediaIcons = styled.div`
@@ -94,4 +113,8 @@ i:hover {
 i:visited {
     color: black;
 }
+
+@media (min-width: 1024px) {
+    margin-top: 0px;
+    }
 `

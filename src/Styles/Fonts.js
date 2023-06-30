@@ -30,9 +30,14 @@ export const BigTitle = styled.h1`
     font-family: SatoshiBlack;
     font-style: normal;
     font-weight: 700;
-    font-size: 75px;
-    line-height: 130px;
+    font-size: 60px;
+    line-height: 65px;
     color: #050d50;
+
+    @media (min-width: 1024px) {
+        font-size: 75px;
+        line-height: 130px;
+    }
 `
 
 export const BigPinkTitle = styled.h2`

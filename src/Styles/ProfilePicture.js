@@ -5,3 +5,8 @@ export const ProfilePicture = styled.img`
     height: 164px;
     border-radius: 100px;
 `
+
+export const ProfilePictureDiv = styled.div`
+    display: flex;
+    justify-content: center;
+`
