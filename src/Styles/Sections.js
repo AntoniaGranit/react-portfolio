@@ -23,14 +23,6 @@ export const TechContainer = styled.section`
     background-color: #ffd2c2;
     padding-top: 350px;
     padding-bottom: 350px;
-
-    @media (min-width: 668px) and (max-width: 1023px) {
-
-    }
-
-    @media (min-width: 1024px) {
-
-    }
 `
 
 export const ProjectContainer = styled.section`
