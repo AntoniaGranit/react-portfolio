@@ -159,7 +159,6 @@
         "description": "My final project at Technigo's frontend developer bootcamp. A fullstack app that helps plant-owners care for and keep track of their houseplants. The app also offers species-specific plant care tips and inspiration. Built in collaboration with fellow frontend developer Sara Battilotti, design by UX designer Marianela García.",
         "codelanguages": [
           "Node.js",
-          "Express",
           "MongoDB",
           "React",
           "Redux",
