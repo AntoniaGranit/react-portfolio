@@ -15,7 +15,7 @@ export const TechDiv = styled.div`
     }
 
     @media (min-width: 1024px) {
-        width: 900px;
+        width: 820px;
         height: 108px;
         display: flex;
         flex-direction: row;
