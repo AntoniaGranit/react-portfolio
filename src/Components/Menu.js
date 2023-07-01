@@ -7,7 +7,7 @@ const MenuComponent = () => {
   return (
     <div>
       <Menu right>
-        <a id="home" className="menu-item" href="/"><Paragraph>Home</Paragraph></a>
+        <a id="projects" href=""
         <a id="about" className="menu-item" href="/about"><Paragraph>About</Paragraph></a>
         <a id="contact" className="menu-item" href="/contact"><Paragraph>Contact</Paragraph></a>
       </Menu>
