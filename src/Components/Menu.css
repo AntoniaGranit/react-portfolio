@@ -16,17 +16,6 @@
     background: #8d88a13c;
   }
   
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
-    height: 25px;
-    width: 25px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #0d0436;;
-  }
-  
   /*
   Sidebar wrapper styles
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
