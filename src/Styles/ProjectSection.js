@@ -3,19 +3,34 @@ import styled from 'styled-components';
 export const ProjectList = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 150px;
-    width: 820px;
-    padding-left: 100px;
+    width: 80%;
+    padding-bottom: 0px;
+    gap: 30px;
+
+    @media (min-width: 1024px) {
+        width: 820px;
+        padding-left: 100px;
+        align-items: self-start;
+    }
 `
 
 export const ProjectWrapper = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
-    height: 230px;
-    width: 700px;
-    padding-bottom: 40px;
+    width: 360px;
     margin-top: 80px;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        width: 80%;
+    }
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        width: 90%;
+    }
 `
 
 export const ProjectInformation = styled.div`
@@ -30,13 +45,19 @@ export const ProjectTitle = styled.div`
 
 export const ProjectScreenshot = styled.img`
     width: 190px;
+    height: 230px;
     border-radius: 10px;
+    display: flex;
+
+    @media (min-width: 1024px) {
+        width: 190px;
+    }
 `
 export const CodeLanguageContainer = styled.div`
 display: flex;
 flex-direction: row;
-gap: 10px;
-margin-top: 24px;
+gap: 5px;
+margin-top: 25px;
 margin-bottom: 40px;
 `
 

@@ -10,10 +10,6 @@ export const TechDiv = styled.div`
     gap: 60px;
     text-align: center;
 
-    @media (min-width: 668px) and (max-width: 1023px) {
-
-    }
-
     @media (min-width: 1024px) {
         width: 820px;
         height: 108px;
