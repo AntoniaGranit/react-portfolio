@@ -5,7 +5,7 @@ import { BigTitle, SkillsPink } from '../Styles/Fonts';
 
 export const SkillSection = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <SkillTitleWrapper><BigTitle>Skills</BigTitle></SkillTitleWrapper>
       <SkillsLists>
         <SkillsUl>

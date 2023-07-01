@@ -58,6 +58,16 @@ export const Paragraph = styled.p`
     line-height: 30px;
 `
 
+/* MENU LINKS */
+export const MenuLink = styled.p`
+    font-family: "Outfit";
+    font-weight: bold;
+    color: #030324;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+`
+
 /* LINKS AND HIGHLIGHTED TEXT */
 
 export const Pink = styled.mark`

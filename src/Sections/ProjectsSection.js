@@ -7,7 +7,7 @@ import { BigTitle } from '../Styles/Fonts';
 
 export const ProjectsSection = () => {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="projects">
       <ProjectList>
         <BigTitle>Featured projects</BigTitle>
         {data.reverse().map((project) => (

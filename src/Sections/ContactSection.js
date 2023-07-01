@@ -7,7 +7,7 @@ import Portrait from '../Assets/portrait_antonia.jpg'
 
 export const ContactSection = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contactme">
       <BigTitle>Let&apos;s chat!</BigTitle>
       <ContactHeader>
         <ProfilePicture

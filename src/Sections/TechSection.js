@@ -5,7 +5,7 @@ import { BigTitle, Paragraph, Pink } from '../Styles/Fonts';
 
 export const TechSection = () => {
   return (
-    <TechContainer>
+    <TechContainer id="tech">
       <TechDiv>
         <BigTitle>Tech_</BigTitle>
         <Paragraph>

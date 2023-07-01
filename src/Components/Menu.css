@@ -24,7 +24,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #0d0436;;
   }
   
   /*
@@ -38,8 +38,8 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: #ffebebb8;
-    padding: 2.5em 1.5em 0;
+    background: #ffdcdce5;
+    padding: 3em 2.5em 0;
     font-size: 1.15em;
   }
   
@@ -57,10 +57,11 @@
   /* Individual item */
   .bm-item {
     display: inline-block;
+    padding-bottom: 0.8em;
   }
   
   /* Styling of overlay */
 
   .bm-overlay {
-    background-color: black;
+    background-color: white;
   }

@@ -1,15 +1,41 @@
 import React from 'react';
-import { bubble as Menu } from 'react-burger-menu';
-import { Paragraph } from '../Styles/Fonts';
+import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-scroll';
+import { MenuLink } from '../Styles/Fonts';
 import './Menu.css';
 
 const MenuComponent = () => {
   return (
     <div>
-      <Menu right>
-        <a id="projects" href=""
-        <a id="about" className="menu-item" href="/about"><Paragraph>About</Paragraph></a>
-        <a id="contact" className="menu-item" href="/contact"><Paragraph>Contact</Paragraph></a>
+      <Menu right width={260}>
+        <Link
+          activeClass="active"
+          to="tech"
+          smooth
+          duration={1000}>
+          <MenuLink>Tech stack</MenuLink>
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          smooth
+          duration={1000}>
+          <MenuLink>Projects</MenuLink>
+        </Link>
+        <Link
+          activeClass="active"
+          to="skills"
+          smooth
+          duration={1000}>
+          <MenuLink>Skills</MenuLink>
+        </Link>
+        <Link
+          activeClass="active"
+          to="contactme"
+          smooth
+          duration={1000}>
+          <MenuLink>Contact me!</MenuLink>
+        </Link>
       </Menu>
     </div>
   );
