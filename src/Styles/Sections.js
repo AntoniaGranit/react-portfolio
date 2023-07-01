@@ -31,14 +31,6 @@ export const ProjectContainer = styled.section`
     padding-top: 100px;
     align-items: center;
     background-color: rgb(255, 251, 247);
-
-    @media (min-width: 668px) and (max-width: 1023px) {
-
-    }
-
-    @media (min-width: 1024px) {
-
-    }
 `
 
 export const SkillsContainer = styled.section`
@@ -46,15 +38,14 @@ export const SkillsContainer = styled.section`
     flex-direction: column;
     align-items: center;
     background-color: #ffe0e5;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    height: fit-content;
 
-    @media (min-width: 668px) and (max-width: 1023px) {
-
-    }
 
     @media (min-width: 1024px) {
-
+        padding-top: 50px;
+        padding-bottom: 150px;
     }
 `
 
@@ -66,12 +57,4 @@ export const ContactContainer = styled.section`
     padding-top: 100px;
     height: 90vh;
     background-color: rgb(255, 251, 247);
-
-    @media (min-width: 668px) and (max-width: 1023px) {
-
-    }
-
-    @media (min-width: 1024px) {
-
-    }
 `
