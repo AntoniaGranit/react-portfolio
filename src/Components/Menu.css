@@ -30,7 +30,7 @@
   /* General sidebar styles */
   .bm-menu {
     background: #ffdcdce5;
-    padding: 4em 2em;
+    padding: 1em 2em;
     height: 100%;
     font-size: 1.15em;
   }
@@ -43,11 +43,14 @@
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   
   /* Individual item */
   .bm-item {
-    display: inline-block;
+    display: block;
     padding-bottom: 0.9em;
   }
 
@@ -55,11 +58,27 @@
     .bm-burger-button {
       top: 36px;
     }
+
+    .bm-item-list {
+      justify-content: flex-start;
+    }
+
+    .bm-menu {
+      padding: 4em 2em;
+    }
   }
   
   @media (min-width: 1024px) {
     .bm-burger-button {
       top: 36px;
+    }
+
+    .bm-item-list {
+      justify-content: flex-start;
+    }
+
+    .bm-menu {
+      padding: 4em 2em;
     }
   }
   
