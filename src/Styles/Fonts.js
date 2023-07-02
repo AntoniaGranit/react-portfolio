@@ -66,10 +66,10 @@ export const MenuLink = styled.p`
     display: flex;
     padding: 7px;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: 0.35s ease-in-out;
 
     &:hover {
-        transform: scale(1.1);
+        transform: translateX(0.5em);
     }
 `
 
