@@ -32,6 +32,7 @@ export const SkillsLists = styled.div`
         display: flex;
         flex-direction: row;
         text-align: left;
+        gap: 30px;
     }
 `
 

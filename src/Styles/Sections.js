@@ -21,8 +21,8 @@ export const TechContainer = styled.section`
     flex-direction: column;
     align-items: center;
     background-color: #ffd2c2;
-    padding-top: 350px;
-    padding-bottom: 350px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 `
 
 export const ProjectContainer = styled.section`
