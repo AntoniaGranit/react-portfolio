@@ -2,7 +2,7 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-scroll';
-import { EnvelopeAt, Kanban, Braces, Gear } from 'react-bootstrap-icons';
+import { Envelope, Kanban, Braces, Gear, ArrowUpSquare } from 'react-bootstrap-icons';
 import { MenuLink, MenuIcon } from '../Styles/Fonts';
 import './Menu.css';
 
@@ -11,8 +11,7 @@ const MenuComponent = () => {
     <div>
       <Menu
         right
-        width={260}
-        isOpen={false}>
+        width={260}>
         <Link
           activeClass="active"
           to="tech"
@@ -39,7 +38,14 @@ const MenuComponent = () => {
           to="contactme"
           smooth
           duration={1000}>
-          <MenuLink><MenuIcon><EnvelopeAt /></MenuIcon> Contact me</MenuLink>
+          <MenuLink><MenuIcon><Envelope /></MenuIcon> Contact me</MenuLink>
+        </Link>
+        <Link
+          activeClass="active"
+          to="landing"
+          smooth
+          duration={1000}>
+          <MenuLink><MenuIcon><ArrowUpSquare /></MenuIcon> Scroll up</MenuLink>
         </Link>
       </Menu>
     </div>

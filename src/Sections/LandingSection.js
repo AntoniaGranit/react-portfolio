@@ -8,7 +8,7 @@ import Portrait from '../Assets/portrait_antonia.jpg';
 
 export const LandingSection = () => {
   return (
-    <LandingSectionContainer>
+    <LandingSectionContainer id="landing">
       <LeftContainer>
         <AntoniaInfo>
           <AntoniaHeader>
