@@ -19,7 +19,7 @@ export const SkillsLists = styled.div`
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 900px;
+    width: 70%;
     gap: 80px;
     margin-top: 50px;
 

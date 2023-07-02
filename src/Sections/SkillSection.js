@@ -38,11 +38,13 @@ export const SkillSection = () => {
         <SkillsUl>
           <SkillsPink>More</SkillsPink>
           <SkillsLi>Pair/Mob-Programming</SkillsLi>
-          <SkillsLi>Design Lead</SkillsLi>
+          <SkillsLi>UX/UI Design</SkillsLi>
           <SkillsLi>Agile Methodology</SkillsLi>
           <SkillsLi>Concept Development</SkillsLi>
-          <SkillsLi>Strategy</SkillsLi>
-          <SkillsLi>Branding</SkillsLi>
+        </SkillsUl>
+        <SkillsUl>
+          <SkillsPink>Upcoming</SkillsPink>
+          <SkillsLi>TypeScript</SkillsLi>
         </SkillsUl>
       </SkillsLists>
     </SkillsContainer>

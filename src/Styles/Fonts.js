@@ -96,4 +96,9 @@ export const SkillsPink = styled.mark`
     font-family: SatoshiMedium;
     font-size: 25px;
     padding: 7px;
+    display: flex;
+
+    @media (min-width: 1024px) {
+    width: 150px;
+    }
 `
