@@ -21,12 +21,10 @@ export const ContactInfo = styled.div`
 `
 
 export const MailLink = styled.a`
-    font-family: SatoshiBold;
+    font-family: SatoshiBlack;
     font-size: 20px;
-    background-color: #ff5e55;
-    color: white;
+    color: #ff5e55;
     text-decoration: none;
-    padding: 7px 3px 7px 3px;
 `
 
 export const SoMeIconContainer = styled.div`
