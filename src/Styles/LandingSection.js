@@ -40,11 +40,11 @@ export const AntoniaInfo = styled.div`
     flex-direction: column;
     width: 90%;
     margin: auto;
-    margin-top: 60px;
+    margin-left: 7%;
 
     @media (min-width: 668px) and (max-width: 1023px) {
         margin: auto;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     @media (min-width: 1024px) {

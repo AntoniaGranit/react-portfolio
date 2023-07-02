@@ -8,7 +8,7 @@ export const LandingSectionContainer = styled.section`
     top: 0;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        height: 80vh;
+        height: 100vh;
     }
 
     @media (min-width: 1024px) {
