@@ -63,6 +63,7 @@ export const MenuLink = styled.p`
     font-family: "Outfit";
     color: #030324;
     font-size: 20px;
+    display: flex;
     padding: 7px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -70,6 +71,11 @@ export const MenuLink = styled.p`
     &:hover {
         transform: scale(1.1);
     }
+`
+
+export const MenuIcon = styled.p`
+    display: flex;
+    padding-right: 7px;
 `
 
 /* LINKS AND HIGHLIGHTED TEXT */
