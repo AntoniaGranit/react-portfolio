@@ -4,11 +4,6 @@ import ColoredBlob from '../Assets/colored-blob2.jpg'
 export const LeftContainer = styled.div`
     display: flex;
     flex-direction: column;
-    position: absolute;
-    margin: 0px;
-    padding: 0;
-    left: 0;
-    top: 0;
     width: 92%;
     height: 100vh;
 
@@ -43,14 +38,13 @@ export const RightImage = styled.div`
 export const AntoniaInfo = styled.div`
     display: flex;
     flex-direction: column;
-    width: 95%;
-    height: 400px;
+    width: 90%;
     margin: auto;
     margin-top: 60px;
-    margin-left: 7%;
 
     @media (min-width: 668px) and (max-width: 1023px) {
         margin: auto;
+        margin-top: 20%;
     }
 
     @media (min-width: 1024px) {

@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const LandingSectionContainer = styled.section`
     display: flex;
     width: 100%;
-    height: 950px;
+    height: 990px;
     background-color: rgb(255, 246, 240);
     top: 0;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        height: 100vh;
+        height: 80vh;
     }
 
     @media (min-width: 1024px) {
