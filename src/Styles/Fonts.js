@@ -61,11 +61,15 @@ export const Paragraph = styled.p`
 /* MENU LINKS */
 export const MenuLink = styled.p`
     font-family: "Outfit";
-    font-weight: bold;
     color: #030324;
     font-size: 20px;
-    line-height: 30px;
+    padding: 7px;
     cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 `
 
 /* LINKS AND HIGHLIGHTED TEXT */

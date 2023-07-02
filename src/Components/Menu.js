@@ -34,7 +34,7 @@ const MenuComponent = () => {
           to="contactme"
           smooth
           duration={1000}>
-          <MenuLink>Contact me!</MenuLink>
+          <MenuLink>Contact me</MenuLink>
         </Link>
       </Menu>
     </div>
