@@ -45,6 +45,8 @@ export const SkillSection = () => {
         <SkillsUl>
           <SkillsPink>Upcoming</SkillsPink>
           <SkillsLi>TypeScript</SkillsLi>
+          <SkillsLi>React Native</SkillsLi>
+          <SkillsLi>Python</SkillsLi>
         </SkillsUl>
       </SkillsLists>
     </SkillsContainer>
