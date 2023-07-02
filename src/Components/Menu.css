@@ -3,9 +3,9 @@
     width: 25px;
     height: 20px;
     right: 36px;
-    top: 36px;
+    bottom: 36px;
   }
-  
+
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #0d0436;
@@ -50,9 +50,16 @@
     display: inline-block;
     padding-bottom: 0.9em;
   }
-  
-  /* Styling of overlay */
 
-  .bm-overlay {
-    background-color: white;
+  @media (min-width: 668px) and (max-width: 1023px) {
+    .bm-burger-button {
+      top: 36px;
+    }
   }
+  
+  @media (min-width: 1024px) {
+    .bm-burger-button {
+      top: 36px;
+    }
+  }
+  
