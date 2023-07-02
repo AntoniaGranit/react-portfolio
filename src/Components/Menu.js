@@ -45,7 +45,7 @@ const MenuComponent = () => {
           to="landing"
           smooth
           duration={1000}>
-          <MenuLink><MenuIcon><ArrowUpSquare /></MenuIcon> Scroll up</MenuLink>
+          <MenuLink><MenuIcon><ArrowUpSquare /></MenuIcon> To the top</MenuLink>
         </Link>
       </Menu>
     </div>
