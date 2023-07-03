@@ -42,6 +42,10 @@ export const LandingSection = () => {
               <i className="fa fa-github fa-lg" />
             </a>
             <span className="sr-only">GitHub</span>
+            <a href="https://www.technigo.io/stories/antonia-from-healhtcare-to-development" target="_blank" rel="noreferrer">
+              <i className="fa fa-newspaper fa-lg" />
+            </a>
+            <span className="sr-only">In media</span>
           </SocialMediaIcons>
         </AntoniaInfo>
       </LeftContainer>

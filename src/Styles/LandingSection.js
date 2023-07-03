@@ -92,16 +92,15 @@ export const SocialMediaIcons = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 100px;
+    width: 180px;
     margin-top: 40px;
 
 i {
     transition: transform 0.2s ease-in-out;
-    color: black;
+    color: #050d50;
 }
 
 i:hover {
-    opacity: 10%;
     transform: scale(1.5);
 }
 

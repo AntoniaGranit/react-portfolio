@@ -31,15 +31,14 @@ export const SoMeIconContainer = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 190px;
+    width: 150px;
     height: 40px;
 
 i {
     transition: transform 0.2s ease-in-out;
-    color: black;
+    color: #050d50;
 
     &:hover {
-    opacity: 10%;
     transform: scale(1.5);
     }
 
