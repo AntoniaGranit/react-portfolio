@@ -3,26 +3,26 @@ import styled from 'styled-components';
 /* TITLES */
 export const AntoniaGranit = styled.h3`
     font-family: SatoshiBold;
-    font-size: 20px;
+    font-size: 1.4em;
     background-color: #ff5e55;
     color: white;
 `
 
 export const BlackTitle = styled.h2`
     font-family: SatoshiBlack;
-    font-size: 25px;
+    font-size: 1.6em;
     color: #030324;
 `
 
 export const MediumBlackTitle = styled.h3`
     font-family: SatoshiBlack;
-    font-size: 20px;
+    font-size: 1.4em;
     color: #030324;
 `
 
 export const DigitalDesigner = styled.h3`
     font-family: SatoshiMedium;
-    font-size: 17px;
+    font-size: 1.1em;
     color: #050d50;
 `
 
@@ -30,17 +30,17 @@ export const BigTitle = styled.h1`
     font-family: SatoshiBlack;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.4em;
     line-height: 65px;
     color: #050d50;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        font-size: 75px;
+        font-size: 4.7em;
         line-height: 130px;
     }
 
     @media (min-width: 1024px) {
-        font-size: 75px;
+        font-size: 4.7em;
         line-height: 130px;
     }
 `
@@ -49,28 +49,19 @@ export const FPTitle = styled.h1`
     font-family: SatoshiBlack;
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.9em;
     line-height: 65px;
     color: #050d50;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        font-size: 75px;
+        font-size: 3.9em;
         line-height: 130px;
     }
 
     @media (min-width: 1024px) {
-        font-size: 75px;
+        font-size: 4.7em;
         line-height: 130px;
     }
-`
-
-export const BigPinkTitle = styled.h2`
-    font-family: SatoshiBlack;
-    font-size: 90px;
-    line-height: 162px;
-    text-align: center;
-    color: #050d50;
-    margin-bottom: 75px;
 `
 
 /* BODY TEXT */
@@ -78,7 +69,7 @@ export const Paragraph = styled.p`
     font-family: "Outfit";
     font-style: normal;
     color: #030324;
-    font-size: 19px;
+    font-size: 1.2em;
     line-height: 30px;
 `
 
@@ -86,14 +77,14 @@ export const Paragraph = styled.p`
 export const MenuLink = styled.p`
     font-family: "Outfit";
     color: #030324;
-    font-size: 20px;
+    font-size: 1.1em;
     display: flex;
     padding: 7px;
     cursor: pointer;
     transition: 0.35s ease-in-out;
 
     &:hover {
-        transform: translateX(0.5em);
+        transform: translateX(0.3em);
     }
 `
 
@@ -111,7 +102,7 @@ export const Pink = styled.mark`
 
 export const CodeLanguages = styled.p`
     font-family: SatoshiMedium;
-    font-size: 16px;
+    font-size: 0.9em;
 `
 
 export const Black = styled.mark`
@@ -124,7 +115,7 @@ export const SkillsPink = styled.mark`
     background-color: #ff5454;
     color: white;
     font-family: SatoshiMedium;
-    font-size: 25px;
+    font-size: 1.3em;
     padding: 7px;
     display: flex;
 
