@@ -30,9 +30,33 @@ export const BigTitle = styled.h1`
     font-family: SatoshiBlack;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 65px;
     color: #050d50;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        font-size: 75px;
+        line-height: 130px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 75px;
+        line-height: 130px;
+    }
+`
+
+export const FPTitle = styled.h1`
+    font-family: SatoshiBlack;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    color: #050d50;
+
+    @media (min-width: 668px) and (max-width: 1023px) {
+        font-size: 75px;
+        line-height: 130px;
+    }
 
     @media (min-width: 1024px) {
         font-size: 75px;
