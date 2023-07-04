@@ -53,7 +53,7 @@ export const FPTitle = styled.h1`
     line-height: 65px;
     color: #050d50;
 
-    @media (max-width: 320px) {
+    @media (max-width: 380px) {
         font-size: 1.8em;
     }
 
@@ -76,8 +76,8 @@ export const LCTitle = styled.h1`
     line-height: 65px;
     color: #050d50;
 
-    @media (max-width: 320px) {
-        font-size: 3em;
+    @media (max-width: 380px) {
+        font-size: 2.5em;
     }
 
     @media (min-width: 668px) and (max-width: 1023px) {

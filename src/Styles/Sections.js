@@ -7,7 +7,7 @@ export const LandingSectionContainer = styled.section`
     background-color: rgb(255, 246, 240);
     top: 0;
 
-    @media (max-width: 320px) {
+    @media (max-width: 380px) {
         height: 1110px;
     }
 
