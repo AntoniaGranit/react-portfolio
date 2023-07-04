@@ -19,9 +19,14 @@ export const ProjectList = styled.div`
 export const ProjectWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     gap: 20px;
     width: 360px;
     margin-top: 80px;
+
+    @media (max-width: 320px) {
+        width: 305px;
+    }
 
     @media (min-width: 668px) and (max-width: 1023px) {
         width: 80%;
@@ -46,11 +51,12 @@ export const ProjectTitle = styled.div`
 export const ProjectScreenshot = styled.img`
     width: 190px;
     height: 230px;
-    border-radius: 10px;
     display: flex;
+    align-self: center;
 
     @media (min-width: 1024px) {
         width: 190px;
+        align-self: start;
     }
 `
 export const CodeLanguageContainer = styled.div`
