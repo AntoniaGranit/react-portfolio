@@ -2,27 +2,24 @@ import styled from 'styled-components';
 
 export const ContactHeader = styled.div`
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 25px;
-    height: 164px;
-    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 `
 
 export const ContactTitleText = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 `
 
 export const ContactInfo = styled.div`
-    margin-top: 40px;
-    margin-bottom: 40px;
+display: flex;
 `
 
 export const MailLink = styled.a`
     font-family: SatoshiBlack;
-    font-size: 20px;
+    font-size: 22px;
     color: #ff5e55;
     text-decoration: none;
 `
@@ -31,7 +28,7 @@ export const SoMeIconContainer = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 150px;
+    width: 100px;
     height: 40px;
 
 i {

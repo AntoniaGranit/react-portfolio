@@ -18,21 +18,21 @@ export const ContactSection = () => {
           <BlackTitle>Frontend Developer</BlackTitle>
           <DigitalDesigner>& digital designer</DigitalDesigner>
         </ContactTitleText>
+        <ContactInfo>
+          <MailLink href="mailto: antonia.granit@gmail.com">antonia.granit@gmail.com
+          </MailLink>
+        </ContactInfo>
+        <SoMeIconContainer>
+          <a href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
+            <i className="fa fa-linkedin fa-lg" />
+          </a>
+          <span className="sr-only">LinkedIn</span>
+          <a href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
+            <i className="fa fa-github fa-lg" />
+          </a>
+          <span className="sr-only">GitHub</span>
+        </SoMeIconContainer>
       </ContactHeader>
-      <ContactInfo>
-        <MailLink href="mailto: antonia.granit@gmail.com">antonia.granit@gmail.com
-        </MailLink>
-      </ContactInfo>
-      <SoMeIconContainer>
-        <a href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
-          <i className="fa fa-linkedin fa-lg" />
-        </a>
-        <span className="sr-only">LinkedIn</span>
-        <a href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
-          <i className="fa fa-github fa-lg" />
-        </a>
-        <span className="sr-only">GitHub</span>
-      </SoMeIconContainer>
     </ContactContainer>
   )
 }

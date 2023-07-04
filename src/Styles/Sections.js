@@ -57,16 +57,8 @@ export const ContactContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    width: 80%;
-    gap: 20px;
+    gap: 40px;
     padding-top: 100px;
     height: 90vh;
     background-color: rgb(255, 251, 247);
-
-    @media (min-width: 668px) and (max-width: 1023px) {
-    }
-
-    @media (min-width: 1024px) {
-    }
 `
