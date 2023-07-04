@@ -49,7 +49,7 @@ export const FPTitle = styled.h1`
     font-family: SatoshiBlack;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.9em;
+    font-size: 2.5em;
     line-height: 65px;
     color: #050d50;
 
@@ -71,6 +71,7 @@ export const Paragraph = styled.p`
     color: #030324;
     font-size: 1.2em;
     line-height: 30px;
+    text-align: justify;
 `
 
 /* MENU LINKS */
