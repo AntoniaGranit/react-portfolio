@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContactContainer } from '../Styles/Sections';
-import { BigTitle, MediumBlackTitle, BlackTitle, DigitalDesigner } from '../Styles/Fonts';
+import { LCTitle, MediumBlackTitle, BlackTitle, DigitalDesigner } from '../Styles/Fonts';
 import { ContactHeader, ContactTitleText, ContactInfo, MailLink, SoMeIconContainer } from '../Styles/ContactSection';
 import { ProfilePicture } from '../Styles/ProfilePicture';
 import Portrait from '../Assets/portrait_antonia.jpg'
@@ -8,7 +8,7 @@ import Portrait from '../Assets/portrait_antonia.jpg'
 export const ContactSection = () => {
   return (
     <ContactContainer id="contactme">
-      <BigTitle>Let&apos;s chat!</BigTitle>
+      <LCTitle>Let&apos;s chat!</LCTitle>
       <ContactHeader>
         <ProfilePicture
           src={Portrait}
