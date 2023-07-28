@@ -152,6 +152,21 @@
       },
       {
         "id": "12",
+        "screenshot": "/Screenshots/happythoughts-screenshot.png",
+        "netlify": "https://twitterbutnicer.netlify.app/",
+        "github": "https://github.com/AntoniaGranit/react-native-wordee",
+        "title": "Happy Thoughts",
+        "description": "A Twitter-like message app where users can post, like, and delete messages. Using MongoDB on backend, this gave me a chance to delve deeper into setting up endpoints, storing data, and handling user input.",
+        "codelanguages": [
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "CSS"
+        ]
+      },
+      {
+        "id": "13",
         "screenshot": "/Screenshots/plantmama-screenshot.png",
         "netlify": "https://plantmama.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
@@ -162,11 +177,11 @@
           "MongoDB",
           "React",
           "Redux",
-          "CSS3"
+          "CSS"
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "screenshot": "/Screenshots/wordee-screenshot.png",
         "netlify": "https://snack.expo.dev/@antoniagranit/wordee_snack",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",

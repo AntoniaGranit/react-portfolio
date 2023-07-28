@@ -53,6 +53,7 @@ export const ProjectScreenshot = styled.img`
     height: 230px;
     display: flex;
     align-self: center;
+    border-radius: 10px;
 
     @media (min-width: 1024px) {
         width: 190px;
