@@ -32,7 +32,10 @@
         "github": "https://github.com/AntoniaGranit/project-weather-app",
         "title": "Weather App",
         "description": "An app showing weather information with the free API from OpenWeatherMap. This project gave us an insight into working with APIs, basic JSON, using fetch(), promises and so on. Built with fellow Technigo student Ajmal Zahir.",
-        "collaborator": "https://github.com/AjmalZ",
+        "collaborator": {
+          "name": "Ajmal Zahir",
+          "github": "https://github.com/AjmalZ"
+        },
         "codelanguages": [
           "HTML",
           "CSS",
@@ -47,7 +50,10 @@
         "github": "https://github.com/AntoniaGranit/project-music-releases",
         "title": "Music Releases",
         "description": "My first React project, showcasing Spotify music releases from the spring of 2023. Repetition of map() and API usage. New concepts include React components, modules, JSX, and props. Built in collaboration with fellow Technigo student Malwina Polak.",
-        "collaborator": "https://github.com/malvinamaria",
+        "collaborator": {
+          "name": "Malwina Polak",
+          "github": "https://github.com/malvinamaria"
+        },
         "codelanguages": [
           "React",
           "CSS",
@@ -73,7 +79,10 @@
         "github": "https://github.com/AntoniaGranit/project-movies",
         "title": "FlixList",
         "description": "A project that familiarized us with React Router, and how to handle a site built in React with several pages. Built in collaboration with fellow Technigo student Andreas Axelsson.",
-        "collaborator": "https://github.com/PerErikAndreas",
+        "collaborator": {
+          "name": "Andreas Axelsson",
+          "github": "https://github.com/PerErikAndreas"
+        },
         "codelanguages": [
           "React",
           "CSS",
