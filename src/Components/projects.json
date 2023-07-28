@@ -46,7 +46,7 @@
         "netlify": "https://hilarious-moonbeam-f0ccd7.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-music-releases",
         "title": "Music Releases",
-        "description": "My first React project, showcasing Spotify music releases from the spring of 2023. Repetition of map() and API usage. New concepts include React components, modules, JSX, and props. Built with fellow Technigo student Malwina Polak",
+        "description": "My first React project, showcasing Spotify music releases from the spring of 2023. Repetition of map() and API usage. New concepts include React components, modules, JSX, and props. Built in collaboration with fellow Technigo student Malwina Polak.",
         "collaborator": "https://github.com/malvinamaria",
         "codelanguages": [
           "React",
@@ -72,7 +72,7 @@
         "netlify": "https://antonia-andreas-movie-site.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-movies",
         "title": "FlixList",
-        "description": "A project that familiarized us with React Router, and how to handle a site built in React with several pages.",
+        "description": "A project that familiarized us with React Router, and how to handle a site built in React with several pages. Built in collaboration with fellow Technigo student Andreas Axelsson.",
         "collaborator": "https://github.com/PerErikAndreas",
         "codelanguages": [
           "React",
