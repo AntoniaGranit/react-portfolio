@@ -1,24 +1,25 @@
 import styled, { css } from 'styled-components';
 
 export const ProjectButton = styled.button`
-    background-color: #f5f5f5;
+    background-color: #F2F2F2;
     color: black;
     font-size: 16px;
-    border-radius: 40px;
-    max-height: 45px;
-    width: 120px;
-    height: 48px;
-    margin: 10px 5px 5px 5px;
-    padding: 7px 10px;
+    border-radius: 5px;
+    max-height: 40px;
+    width: 100px;
+    margin-left: 5px;
+    padding: 0px;
     border: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: "Outfit";
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
 
 i {
-    width: 32px;
-    height: 32px;
-    font-size: 30px;
+
+    font-size: 20px;
     padding: 7px;
     margin: 5px;
 }
