@@ -25,7 +25,7 @@ export const SingleProject = ({ project }) => {
             target="_blank"
             rel="noreferrer">
             <ProjectButton netlify type="button">
-              <i className="fa fa-globe" />Live
+              View Live
             </ProjectButton>
           </a>
           <a
@@ -33,7 +33,7 @@ export const SingleProject = ({ project }) => {
             target="_blank"
             rel="noreferrer">
             <ProjectButton github type="button">
-              <i className="fa fa-github" />Code
+              View Code
             </ProjectButton>
           </a>
         </ProjectButtons>

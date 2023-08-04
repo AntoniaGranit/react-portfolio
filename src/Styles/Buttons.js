@@ -1,27 +1,19 @@
 import styled, { css } from 'styled-components';
 
 export const ProjectButton = styled.button`
-    background-color: #F2F2F2;
-    color: black;
-    font-size: 16px;
-    border-radius: 5px;
-    max-height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    height: 35px;
     width: 100px;
-    padding: 0px;
     border: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Outfit";
-    font-weight: bold;
+    justify-content: center;
+    font-family: "Space Mono";
     transition: transform 0.2s ease-in-out;
-
-i {
-
-    font-size: 20px;
-    padding: 7px;
-    margin: 5px;
-}
 
 &:hover {
     transform: scale(1.12);
