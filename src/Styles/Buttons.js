@@ -4,7 +4,7 @@ export const ProjectButton = styled.button`
     background-color: black;
     color: white;
     font-size: 12px;
-    border-radius: 3px;
+    border-radius: 2px;
     height: 35px;
     width: 100px;
     border: none;
