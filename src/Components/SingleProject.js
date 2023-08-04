@@ -1,6 +1,6 @@
 import React from 'react';
-import { ProjectWrapper, ProjectInformation, ProjectTitle, ProjectScreenshot, CodeLanguageContainer, ProjectButtons } from '../Styles/ProjectSection';
-import { Paragraph, CodeLanguages, BlackTitle, Black } from '../Styles/Fonts';
+import { ProjectWrapper, ProjectInformation, ProjectTitle, ProjectScreenshot, ProjectButtons } from '../Styles/ProjectSection';
+import { Paragraph, BlackTitle } from '../Styles/Fonts';
 import { ProjectButton } from '../Styles/Buttons';
 
 export const SingleProject = ({ project }) => {
@@ -14,11 +14,11 @@ export const SingleProject = ({ project }) => {
         </ProjectTitle>
 
         <Paragraph>{project.description}</Paragraph>
-        <CodeLanguageContainer>
+        {/* <CodeLanguageContainer>
           {project.codelanguages.map((language) => (
             <CodeLanguages><Black key={language}>{language}</Black></CodeLanguages>
           ))}
-        </CodeLanguageContainer>
+        </CodeLanguageContainer> */}
         <ProjectButtons>
           <a
             href={project.netlify}

@@ -7,7 +7,6 @@ export const ProjectButton = styled.button`
     border-radius: 5px;
     max-height: 40px;
     width: 100px;
-    margin-left: 5px;
     padding: 0px;
     border: none;
     display: flex;

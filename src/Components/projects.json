@@ -5,12 +5,7 @@
         "netlify": "https://antoniastravelbot.netlify.app/",
         "github": "https://github.com/AntoniaGranit/project-chatbot",
         "title": "TravelBot",
-        "description": "The first JavaScript project for Technigo's frontend developer bootcamp, meant to give students a grasp of JS fundamentals. Built using variables, functions, control flow, and conditional statements/ternary operators.",
-        "codelanguages": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ]
+        "description": "The first JavaScript project for Technigo's frontend developer bootcamp, meant to give students a grasp of JS fundamentals. Built using variables, functions, control flow, and conditional statements/ternary operators."
       },
       {
         "id": "2",
@@ -18,12 +13,7 @@
         "netlify": "https://antoniasguesswho.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-guess-who",
         "title": "Guess Who-game",
-        "description": "A digital take on the classic game 'Guess Who?', created using array methods such as filter(), forEach() and map(). This project taught us about JavaScript scope, and how to use objects and arrays.",
-        "codelanguages": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ]
+        "description": "A digital take on the classic game 'Guess Who?', created using array methods such as filter(), forEach() and map(). This project taught us about JavaScript scope, and how to use objects and arrays."
       },
       {
         "id": "3",
@@ -35,13 +25,7 @@
         "collaborator": {
           "name": "Ajmal Zahir",
           "github": "https://github.com/AjmalZ"
-        },
-        "codelanguages": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "APIs"
-        ]
+        }
       },
       {
         "id": "4",
@@ -53,12 +37,7 @@
         "collaborator": {
           "name": "Malwina Polak",
           "github": "https://github.com/malvinamaria"
-        },
-        "codelanguages": [
-          "React",
-          "CSS",
-          "APIs"
-        ]
+        }
       },
       {
         "id": "5",
@@ -66,11 +45,7 @@
         "netlify": "https://theafrobeatsquiz.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-survey",
         "title": "The Afrobeats Quiz",
-        "description": "A simple survey using controlled form inputs. This project introduced the concept of state in React, and familiarized us with the useState hook and how to show different components depending on one's place in a survey.",
-        "codelanguages": [
-          "React",
-          "CSS"
-        ]
+        "description": "A simple survey using controlled form inputs. This project introduced the concept of state in React, and familiarized us with the useState hook and how to show different components depending on one's place in a survey."
       },
       {
         "id": "6",
@@ -82,12 +57,7 @@
         "collaborator": {
           "name": "Andreas Axelsson",
           "github": "https://github.com/PerErikAndreas"
-        },
-        "codelanguages": [
-          "React",
-          "CSS",
-          "APIs"
-        ]
+        }
       },
       {
         "id": "7",
@@ -95,11 +65,7 @@
         "netlify": "https://santulanpoweryoga-antonia.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-design-handoff",
         "title": "Design Hand-off",
-        "description": "A collaboration with Technigo's UX Design Bootcamp student Alice Wennberg, who created the design. Created with React and styled entirely with styled components.",
-        "codelanguages": [
-          "React",
-          "Styled Components"
-        ]
+        "description": "A collaboration with Technigo's UX Design Bootcamp student Alice Wennberg, who created the design. Created with React and styled entirely with styled components."
       },
       {
         "id": "8",
@@ -107,12 +73,7 @@
         "netlify": "https://antonias-reactquiz.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-redux-quiz",
         "title": "React-Redux Quiz",
-        "description": "A multiple-choice quiz game to test your React knowledge, made using Redux. My first project using Redux.",
-        "codelanguages": [
-          "React",
-          "Redux",
-          "Styled Components"
-        ]
+        "description": "A multiple-choice quiz game to test your React knowledge, made using Redux. My first project using Redux."
       },
       {
         "id": "9",
@@ -120,12 +81,7 @@
         "netlify": "https://antonias-todoapp.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-todo",
         "title": "ToDo App",
-        "description": "A todo app made using React, Redux and styled components. This project gave us a chance to work with and edit the Redux store.",
-        "codelanguages": [
-          "React",
-          "Redux",
-          "Styled Components"
-        ]
+        "description": "A todo app made using React, Redux and styled components. This project gave us a chance to work with and edit the Redux store."
       },
       {
         "id": "10",
@@ -137,12 +93,6 @@
         "collaborator": [
             "https://github.com/AjmalZ",
             "https://github.com/SaraBat"
-        ],
-        "codelanguages": [
-          "React",
-          "Redux",
-          "Styled Components",
-          "APIs"
         ]
       },
       {
@@ -151,13 +101,7 @@
         "netlify": "https://itsalaries2020.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "IT Salaries 2020",
-        "description": "A RESTful API built using Node.js and Express, and my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router.",
-        "codelanguages": [
-          "Node.js",
-          "Express",
-          "React",
-          "Styled Components"
-        ]
+        "description": "A RESTful API built using Node.js and Express, and my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router."
       },
       {
         "id": "12",
@@ -165,14 +109,7 @@
         "netlify": "https://twitterbutnicer.netlify.app/",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",
         "title": "Happy Thoughts",
-        "description": "A Twitter-like message app where users can post, like, and delete messages. Using MongoDB on backend, this gave me a chance to delve deeper into setting up endpoints, storing data, and handling user input.",
-        "codelanguages": [
-          "React",
-          "Node.js",
-          "Express",
-          "MongoDB",
-          "CSS"
-        ]
+        "description": "A Twitter-like message app where users can post, like, and delete messages. Using MongoDB on backend, this gave me a chance to delve deeper into setting up endpoints, storing data, and handling user input."
       },
       {
         "id": "13",
@@ -180,14 +117,7 @@
         "netlify": "https://plantmama.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "PlantMama",
-        "description": "My final project at Technigo's frontend developer bootcamp. A fullstack app that helps plant-owners care for and keep track of their houseplants. The app also offers species-specific plant care tips and inspiration. Built in collaboration with fellow frontend developer Sara Battilotti, design by UX designer Marianela García.",
-        "codelanguages": [
-          "Node.js",
-          "MongoDB",
-          "React",
-          "Redux",
-          "CSS"
-        ]
+        "description": "My final project at Technigo's frontend developer bootcamp. A fullstack app that helps plant-owners care for and keep track of their houseplants. The app also offers species-specific plant care tips and inspiration. Built in collaboration with fellow frontend developer Sara Battilotti, design by UX designer Marianela García."
       },
       {
         "id": "14",
@@ -195,10 +125,6 @@
         "netlify": "/Screenshots/wordee-QR.png",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",
         "title": "wordee",
-        "description": "My first React Native project. An app that randomly generates a word and gives its definition. Built with two separate APIs, this gave me a chance to both test out React Native and combine multiple APIs. If I had money laying around, I would also try publishing the app on the App Store.",
-        "codelanguages": [
-          "React Native",
-          "APIs"
-        ]
+        "description": "My first React Native project. An app that randomly generates a word and gives its definition. Built with two separate APIs, this gave me a chance to both test out React Native and combine multiple APIs. If I had money laying around, I would also try publishing the app on the App Store."
       }
 ]

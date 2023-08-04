@@ -39,9 +39,9 @@ export const ProjectWrapper = styled.div`
 `
 
 export const ProjectInformation = styled.div`
-    padding-top: 5px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 `
 
 export const ProjectTitle = styled.div`
@@ -60,18 +60,16 @@ export const ProjectScreenshot = styled.img`
         align-self: start;
     }
 `
-export const CodeLanguageContainer = styled.div`
-display: flex;
-flex-direction: row;
-gap: 5px;
-margin-top: 25px;
-margin-bottom: 40px;
-`
+// export const CodeLanguageContainer = styled.div`
+// display: flex;
+// flex-direction: row;
+// gap: 5px;
+// margin-top: 25px;
+// margin-bottom: 40px;
+// `
 
 export const ProjectButtons = styled.div`
     display: flex;
     width: fit-content;
-    gap: 15px;
-    margin-top: -10px;
-    margin-left: -8px;
+    gap: 10px;
 `
