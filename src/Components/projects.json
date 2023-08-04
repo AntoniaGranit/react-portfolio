@@ -79,7 +79,7 @@
         "id": "9",
         "screenshot": "/Screenshots/todo-screenshot.png",
         "netlify": "https://antonias-todoapp.netlify.app",
-        "github": "https://github.com/AntoniaGranit/project-todo",
+        "github": "https://github.com/AntoniaGranit/project-todos",
         "title": "ToDo App",
         "description": "A todo app made using React, Redux and styled components. This project gave us a chance to work with and edit the Redux store."
       },
@@ -107,7 +107,7 @@
         "id": "12",
         "screenshot": "/Screenshots/happythoughts-screenshot.png",
         "netlify": "https://twitterbutnicer.netlify.app/",
-        "github": "https://github.com/AntoniaGranit/react-native-wordee",
+        "github": "https://github.com/AntoniaGranit/project-happy-thoughts",
         "title": "Happy Thoughts",
         "description": "A Twitter-like message app where users can post, like, and delete messages. Using MongoDB on backend, this gave me a chance to delve deeper into setting up endpoints, storing data, and handling user input."
       },
