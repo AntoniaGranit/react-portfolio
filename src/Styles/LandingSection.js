@@ -58,13 +58,11 @@ export const AntoniaInfo = styled.div`
 export const AntoniaHeader = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    height: 250px;
+    gap: 20px;
     padding-bottom: 20px;
 
     @media (min-width: 1024px) {
         flex-direction: row;
-        height: 164px;
     }
 `
 
@@ -97,7 +95,7 @@ export const SocialMediaIcons = styled.div`
 
 i {
     transition: transform 0.2s ease-in-out;
-    color: #050d50;
+    color: #030324;
 }
 
 i:hover {
