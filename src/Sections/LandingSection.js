@@ -24,12 +24,12 @@ export const LandingSection = () => {
           </AntoniaHeader>
           <AntoniaHeaderInfo>
             <Paragraph>
-            Hi! I&apos;m Antonia, a dedicated frontend developer with a passion for creating impactful digital experiences.
-            Leveraging my background in academia, healthcare and youth work, I bring a deep understanding of human behavior to all of my projects.
-            I take pride in my work and strive to create products that not only look good but feel good to use.
-            As a dedicated problem solver, I&apos;m always up for a challenge and love working with a team to bring ideas to life.
-            If you&apos;re looking for someone who can bring a fresh perspective and a personal touch to your tech projects, look no further.
-            Let&apos;s create something great together!
+            Hi! I&apos;m Antonia, a Frontend Developer with a passion for creating impactful digital experiences.
+            Leveraging my background in academia, healthcare and youth work, I bring a deep understanding of human behavior to my projects.
+            I take pride in designing products that excel in both aesthetics and usability. As a tenacious problem solver,
+            I embrace challenges and enjoy collaborating with others to bring ideas to life.
+            If you&apos;re seeking a fresh perspective and a tailored approach, look no further.
+            Let&apos;s connect!
             </Paragraph>
           </AntoniaHeaderInfo>
           <SocialMediaIcons>
