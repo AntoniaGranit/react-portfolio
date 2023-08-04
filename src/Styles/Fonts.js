@@ -105,17 +105,6 @@ export const Pink = styled.mark`
     color: white;
 `
 
-// export const CodeLanguages = styled.p`
-//     font-family: SatoshiMedium;
-//     font-size: 0.9em;
-// `
-
-// export const Black = styled.mark`
-//     background-color: #030324;
-//     color: white;
-//     padding: 2px 6px;
-// `
-
 export const SkillsPink = styled.mark`
     background-color: #ff5454;
     color: white;

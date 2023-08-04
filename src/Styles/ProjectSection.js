@@ -60,13 +60,6 @@ export const ProjectScreenshot = styled.img`
         align-self: start;
     }
 `
-// export const CodeLanguageContainer = styled.div`
-// display: flex;
-// flex-direction: row;
-// gap: 5px;
-// margin-top: 25px;
-// margin-bottom: 40px;
-// `
 
 export const ProjectButtons = styled.div`
     display: flex;

@@ -14,11 +14,6 @@ export const SingleProject = ({ project }) => {
         </ProjectTitle>
 
         <Paragraph>{project.description}</Paragraph>
-        {/* <CodeLanguageContainer>
-          {project.codelanguages.map((language) => (
-            <CodeLanguages><Black key={language}>{language}</Black></CodeLanguages>
-          ))}
-        </CodeLanguageContainer> */}
         <ProjectButtons>
           <a
             href={project.netlify}
