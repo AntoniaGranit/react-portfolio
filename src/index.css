@@ -1,32 +1,39 @@
 @font-face {
-  font-family: SatoshiBold;
-  font-weight: bold;
-  src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf');
-}
-@font-face {
-  font-family: SatoshiMedium;
-  font-weight: medium;
-  src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf');
-}
-@font-face {
-  font-family: SatoshiBlack;
-  font-weight: bolder;
-  src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf');
-}
+    font-family: SatoshiBold;
+    font-weight: bold;
+    src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf');
+  }
+  @font-face {
+    font-family: SatoshiMedium;
+    font-weight: medium;
+    src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf');
+  }
+  @font-face {
+    font-family: SatoshiBlack;
+    font-weight: bolder;
+    src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf');
+  }
+  @font-face {
+    font-family: Moglan;
+    font-weight: bolder;
+    src: url('Assets/Moglan_DEMO.ttf');
+  }
+  
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  background-color: rgb(255, 251, 247);
-}
-
-a {
-  text-decoration: none;
-}
-
-button:hover {
-  cursor: pointer;
-}
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 251, 247);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  

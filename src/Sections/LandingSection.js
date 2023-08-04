@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { LeftContainer, RightImage, AntoniaInfo, AntoniaHeader, AntoniaTitleText, AntoniaHeaderInfo, SocialMediaIcons } from '../Styles/LandingSection';
-import { AntoniaGranit, BlackTitle, DigitalDesigner, Paragraph } from '../Styles/Fonts';
+import { AntoniaGranit, FrontEndDev, Paragraph } from '../Styles/Fonts';
 import { LandingSectionContainer } from '../Styles/Sections';
 import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture';
 import Portrait from '../Assets/portrait_antonia.jpg';
@@ -19,8 +19,7 @@ export const LandingSection = () => {
             </ProfilePictureDiv>
             <AntoniaTitleText>
               <AntoniaGranit>Antonia Granit</AntoniaGranit>
-              <BlackTitle>Frontend Developer</BlackTitle>
-              <DigitalDesigner>& digital designer</DigitalDesigner>
+              <FrontEndDev>Frontend Developer</FrontEndDev>
             </AntoniaTitleText>
           </AntoniaHeader>
           <AntoniaHeaderInfo>

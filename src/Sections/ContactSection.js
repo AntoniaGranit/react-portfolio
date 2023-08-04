@@ -1,7 +1,7 @@
 import React from 'react';
 import { ContactContainer } from '../Styles/Sections';
-import { LCTitle, MediumBlackTitle, BlackTitle, DigitalDesigner } from '../Styles/Fonts';
-import { ContactHeader, ContactTitleText, ContactInfo, MailLink, SoMeIconContainer } from '../Styles/ContactSection';
+import { LCTitle } from '../Styles/Fonts';
+import { ContactHeader, ContactInfo, MailLink, SoMeIconContainer } from '../Styles/ContactSection';
 import { ProfilePicture } from '../Styles/ProfilePicture';
 import Portrait from '../Assets/portrait_antonia.jpg'
 
@@ -13,11 +13,6 @@ export const ContactSection = () => {
         <ProfilePicture
           src={Portrait}
           alt="Portrait of Antonia Granit" />
-        <ContactTitleText>
-          <MediumBlackTitle>Antonia Granit</MediumBlackTitle>
-          <BlackTitle>Frontend Developer</BlackTitle>
-          <DigitalDesigner>& digital designer</DigitalDesigner>
-        </ContactTitleText>
         <ContactInfo>
           <MailLink href="mailto: antonia.granit@gmail.com">antonia.granit@gmail.com
           </MailLink>

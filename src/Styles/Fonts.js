@@ -2,10 +2,14 @@ import styled from 'styled-components';
 
 /* TITLES */
 export const AntoniaGranit = styled.h3`
-    font-family: SatoshiBold;
-    font-size: 1.4em;
-    background-color: #ff5e55;
-    color: white;
+    font-family: Moglan;
+    font-size: 2.8em;
+    /* background-color: #ff5e55; */
+    color: #030324;
+
+    @media (min-width: 1024px) {
+        font-size: 3.6em;
+    }
 `
 
 export const BlackTitle = styled.h2`
@@ -14,16 +18,16 @@ export const BlackTitle = styled.h2`
     color: #030324;
 `
 
-export const MediumBlackTitle = styled.h3`
-    font-family: SatoshiBlack;
+export const FrontEndDev = styled.h2`
+    font-family: "Open Sans";
     font-size: 1.4em;
     color: #030324;
 `
 
-export const DigitalDesigner = styled.h3`
-    font-family: SatoshiMedium;
-    font-size: 1.1em;
-    color: #050d50;
+export const MediumBlackTitle = styled.h3`
+    font-family: SatoshiBlack;
+    font-size: 1.4em;
+    color: #030324;
 `
 
 export const BigTitle = styled.h1`
