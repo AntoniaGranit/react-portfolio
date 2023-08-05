@@ -7,7 +7,7 @@ export const TechSection = () => {
   return (
     <TechContainer id="tech">
       <TechDiv>
-        <BigTitle>Tech_</BigTitle>
+        <BigTitle>Tech</BigTitle>
         <Paragraph>
         HTML, CSS, Flexbox, <Pink>JavaScript ES6</Pink>, JSX, Responsive Design,
         Web Accessibility, <Pink>React</Pink>, Styled
