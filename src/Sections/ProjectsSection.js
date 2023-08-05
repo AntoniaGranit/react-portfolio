@@ -11,8 +11,9 @@ export const ProjectsSection = () => {
       <ProjectList>
         <BigTitle>Projects</BigTitle>
         {data.reverse().map((project) => (
-          <SingleProject project={project} />
+          <SingleProject key={project.id} project={project} />
         ))}
+
       </ProjectList>
     </ProjectContainer>
   )
