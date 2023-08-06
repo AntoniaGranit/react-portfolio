@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const AntoniaGranit = styled.h3`
     font-family: Moglan;
     font-size: 2.8em;
-    /* background-color: #ff5e55; */
     color: #030324;
 
     @media (min-width: 1024px) {

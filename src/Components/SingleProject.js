@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectWrapper, ProjectInformation, ProjectTitle, ProjectScreenshot, ProjectButtons } from '../Styles/ProjectSection';
+import { ProjectWrapper, ProjectInformation, ProjectScreenshot, ProjectButtons } from '../Styles/ProjectSection';
 import { Paragraph, BlackTitle } from '../Styles/Fonts';
 import { ProjectButton } from '../Styles/Buttons';
 
@@ -9,9 +9,7 @@ export const SingleProject = ({ project }) => {
       <ProjectScreenshot
         src={project.screenshot} />
       <ProjectInformation>
-        <ProjectTitle>
-          <BlackTitle>{project.title}</BlackTitle>
-        </ProjectTitle>
+        <BlackTitle>{project.title}</BlackTitle>
 
         <Paragraph>{project.description}</Paragraph>
         <ProjectButtons>

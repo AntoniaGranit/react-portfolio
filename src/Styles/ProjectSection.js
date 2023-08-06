@@ -42,10 +42,7 @@ export const ProjectInformation = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-`
-
-export const ProjectTitle = styled.div`
-    margin-bottom: 7px;
+    justify-content: center;
 `
 
 export const ProjectScreenshot = styled.img`
@@ -57,7 +54,7 @@ export const ProjectScreenshot = styled.img`
 
     @media (min-width: 1024px) {
         width: 190px;
-        align-self: start;
+        align-self: center;
     }
 `
 
