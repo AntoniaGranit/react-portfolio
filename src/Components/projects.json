@@ -101,7 +101,7 @@
         "netlify": "https://itsalaries2020.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "IT Salaries 2020",
-        "description": "A RESTful API built using Node.js and Express, and my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router."
+        "description": "A RESTful API built using Node.js and Express, and my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router. I recently migrated this project from JavaScript to TypeScript."
       },
       {
         "id": "12",
