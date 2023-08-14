@@ -19,9 +19,17 @@ display: flex;
 
 export const MailLink = styled.a`
     font-family: SatoshiBlack;
-    font-size: 22px;
+    font-size: 1.4rem;
     color: #ff5e55;
     text-decoration: none;
+    margin: 0 -.25rem;
+    padding: .25rem .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+  :hover {
+  box-shadow: inset 300px 0 0 0 #ff5e55;
+  color: white;
+}
 `
 
 export const SoMeIconContainer = styled.div`
