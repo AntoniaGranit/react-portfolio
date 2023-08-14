@@ -18,7 +18,7 @@ export const BlackTitle = styled.h2`
 `
 
 export const FrontEndDev = styled.h2`
-    font-family: "Open Sans";
+    font-family: "Outfit";
     font-size: 1.4em;
     color: #030324;
 `
