@@ -30,9 +30,16 @@ export const RightImage = styled.div`
         display: none; 
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px) and (max-width: 1279px) {
         display: flex;
+        height: 900px;
     }
+
+     @media (min-width: 1280px) {
+        display: flex;
+        height: 100vh;
+    }
+
 `
 
 export const AntoniaInfo = styled.div`

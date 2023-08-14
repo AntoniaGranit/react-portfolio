@@ -12,10 +12,14 @@ export const LandingSectionContainer = styled.section`
     }
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        height: 100vh;
+        height: 80vh;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px) and (max-width: 1279px) {
+        height: 900px;
+    }
+
+    @media (min-width: 1280px) {
         height: 100vh;
     }
 `
