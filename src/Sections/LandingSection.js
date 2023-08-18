@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
-import { LeftContainer, RightImage, AntoniaInfo, AntoniaHeader, AntoniaTitleText, AntoniaHeaderInfo, SocialMediaIcons } from '../Styles/LandingSection';
+import { LeftContainer, AntoniaInfo, AntoniaHeader, AntoniaTitleText, AntoniaHeaderInfo, SocialMediaIcons } from '../Styles/LandingSection';
 import { AntoniaGranit, FrontEndDev, Paragraph } from '../Styles/Fonts';
 import { LandingSectionContainer } from '../Styles/Sections';
 import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture';
@@ -34,21 +34,23 @@ export const LandingSection = () => {
           </AntoniaHeaderInfo>
           <SocialMediaIcons>
             <a href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
-              <i className="fa fa-linkedin fa-lg" />
+              <Paragraph>LinkedIn</Paragraph>
             </a>
             <span className="sr-only">LinkedIn</span>
+            <Paragraph>|</Paragraph>
             <a href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
-              <i className="fa fa-github fa-lg" />
+              <Paragraph>GitHub</Paragraph>
             </a>
             <span className="sr-only">GitHub</span>
+            <Paragraph>|</Paragraph>
             <a href="https://www.technigo.io/stories/antonia-from-healhtcare-to-development" target="_blank" rel="noreferrer">
-              <i className="fa fa-newspaper fa-lg" />
+              <Paragraph>In media</Paragraph>
             </a>
             <span className="sr-only">In media</span>
           </SocialMediaIcons>
         </AntoniaInfo>
       </LeftContainer>
-      <RightImage />
+      {/* <RightImage /> */}
     </LandingSectionContainer>
   )
 }

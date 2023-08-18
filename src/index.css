@@ -15,8 +15,12 @@
   }
   @font-face {
     font-family: Moglan;
-    font-weight: bolder;
     src: url('Assets/Moglan_DEMO.ttf');
+  }
+
+  @font-face {
+    font-family: Glacial Indifference;
+    src: url('Assets/GlacialIndifference-Regular.otf');
   }
   
 

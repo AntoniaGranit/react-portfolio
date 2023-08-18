@@ -3,11 +3,11 @@ import styled from 'styled-components';
 /* TITLES */
 export const AntoniaGranit = styled.h3`
     font-family: Moglan;
-    font-size: 2.8em;
+    font-size: 10vw;
     color: #030324;
 
     @media (min-width: 1024px) {
-        font-size: 3.6em;
+        font-size: 7vw;
     }
 `
 
@@ -19,7 +19,7 @@ export const BlackTitle = styled.h2`
 
 export const FrontEndDev = styled.h2`
     font-family: "Outfit";
-    font-size: 1.4em;
+    font-size: 2em;
     color: #030324;
 `
 
@@ -30,12 +30,11 @@ export const MediumBlackTitle = styled.h3`
 `
 
 export const BigTitle = styled.h1`
-    font-family: SatoshiBlack;
+    font-family: Moglan;
     font-style: normal;
-    font-weight: 700;
     font-size: 3.4em;
     line-height: 65px;
-    color: #050d50;
+    color: #030324;
 
     @media (min-width: 668px) and (max-width: 1023px) {
         font-size: 4.7em;
@@ -43,18 +42,17 @@ export const BigTitle = styled.h1`
     }
 
     @media (min-width: 1024px) {
-        font-size: 4.7em;
+        font-size: 7em;
         line-height: 130px;
     }
 `
 
 export const LCTitle = styled.h1`
-    font-family: SatoshiBlack;
+    font-family: Moglan;
     font-style: normal;
-    font-weight: 700;
     font-size: 3.4em;
     line-height: 65px;
-    color: #050d50;
+    color: #030324;
 
     @media (max-width: 380px) {
         font-size: 2.5em;
@@ -66,7 +64,7 @@ export const LCTitle = styled.h1`
     }
 
     @media (min-width: 1024px) {
-        font-size: 4.7em;
+        font-size: 8vw;
         line-height: 130px;
     }
 `
@@ -109,12 +107,15 @@ export const Pink = styled.mark`
 `
 
 export const SkillsPink = styled.mark`
-    background-color: #f85543;
+    background-color: #030324;
     color: white;
-    font-family: SatoshiMedium;
-    font-size: 1.3em;
-    padding: 7px;
+    font-family: Moglan;
+    border-radius: 25px;
+    font-size: 1.5em;
+    padding: 10px 15px;
     display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 
     @media (min-width: 1024px) {
     width: 150px;
