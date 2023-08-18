@@ -109,7 +109,7 @@ export const Pink = styled.mark`
 `
 
 export const SkillsPink = styled.mark`
-    background-color: #ff5454;
+    background-color: #f85543;
     color: white;
     font-family: SatoshiMedium;
     font-size: 1.3em;

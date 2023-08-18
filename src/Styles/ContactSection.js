@@ -20,7 +20,7 @@ display: flex;
 export const MailLink = styled.a`
     font-family: SatoshiBlack;
     font-size: 1.4rem;
-    color: #ff5e55;
+    color: #ff5454;
     text-decoration: none;
     margin: 0 -.25rem;
     padding: .25rem .25rem;

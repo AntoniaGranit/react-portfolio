@@ -45,7 +45,7 @@ export const SkillsContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffe0e5;
+    background-color: #ffd2c2;
     padding-top: 100px;
     padding-bottom: 120px;
     height: fit-content;
@@ -64,5 +64,5 @@ export const ContactContainer = styled.section`
     gap: 40px;
     padding-top: 100px;
     height: 90vh;
-    background-color: rgb(255, 251, 247);
+    background-color: #ffe0e5;
 `
