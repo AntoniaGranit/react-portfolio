@@ -17,7 +17,7 @@ export const SingleProject = ({ project }) => {
             href={project.netlify}
             target="_blank"
             rel="noreferrer">
-            <ProjectButton netlify type="button">
+            <ProjectButton type="button">
               View Live
             </ProjectButton>
           </a>
@@ -25,7 +25,7 @@ export const SingleProject = ({ project }) => {
             href={project.github}
             target="_blank"
             rel="noreferrer">
-            <ProjectButton github type="button">
+            <ProjectButton type="button">
               View Code
             </ProjectButton>
           </a>

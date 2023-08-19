@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const ProjectButton = styled.button`
     background-color: black;
@@ -13,19 +13,9 @@ export const ProjectButton = styled.button`
     align-items: center;
     justify-content: center;
     font-family: "Space Mono";
-    transition: border-radius 0.2s ease-in-out;
+    transition: border-radius 0.5s ease-in-out;
 
 &:hover {
     border-radius: 25px;
 }
-
-${(props) => props.github && css`
-&:hover {
-    background-color: #a4ff77;
-}`}
-
-${(props) => props.netlify && css`
-&:hover {
-    background-color: #c2d209;
-}`}
 `
