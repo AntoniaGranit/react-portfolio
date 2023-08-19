@@ -1,4 +1,5 @@
 import React from 'react';
+import { Slide } from 'react-awesome-reveal';
 import { ContactContainer } from '../Styles/Sections';
 import { LCTitle, Paragraph } from '../Styles/Fonts';
 import { ContactHeader, ContactInfo, MailLink, SoMeIconContainer } from '../Styles/ContactSection';
@@ -6,7 +7,7 @@ import { ContactHeader, ContactInfo, MailLink, SoMeIconContainer } from '../Styl
 export const ContactSection = () => {
   return (
     <ContactContainer id="contactme">
-      <LCTitle>Let&apos;s chat!</LCTitle>
+      <Slide direction="up"><LCTitle>Let&apos;s chat!</LCTitle></Slide>
       <ContactHeader>
         <ContactInfo>
           <MailLink href="mailto: antonia.granit@gmail.com">antonia.granit@gmail.com

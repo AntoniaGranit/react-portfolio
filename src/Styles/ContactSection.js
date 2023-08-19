@@ -22,7 +22,8 @@ export const MailLink = styled.a`
     font-size: 1.4rem;
     color: #030324;
     text-decoration: none;
-    padding: .25rem .25rem;
+    padding: 1rem 1rem;
+    border-radius: 25px;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 
   :hover {

@@ -8,8 +8,8 @@ import { BigTitle } from '../Styles/Fonts';
 export const ProjectsSection = () => {
   return (
     <ProjectContainer id="projects">
+      <BigTitle>Projects</BigTitle>
       <ProjectList>
-        <BigTitle>Projects</BigTitle>
         {data.reverse().map((project) => (
           <SingleProject key={project.id} project={project} />
         ))}
