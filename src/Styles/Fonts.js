@@ -76,7 +76,6 @@ export const Paragraph = styled.p`
     color: #030324;
     font-size: 1.2em;
     line-height: 1.4em;
-    text-align: justify;
 `
 
 /* MENU LINKS */
