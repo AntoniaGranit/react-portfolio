@@ -19,7 +19,7 @@ export const BlackTitle = styled.h2`
 
 export const FrontEndDev = styled.h2`
     font-family: "Outfit";
-    font-size: 2em;
+    font-size: 1.7em;
     color: #030324;
 `
 
@@ -42,7 +42,7 @@ export const BigTitle = styled.h1`
     }
 
     @media (min-width: 1024px) {
-        font-size: 7em;
+        font-size: 8vw;
         line-height: 130px;
     }
 `
@@ -50,7 +50,7 @@ export const BigTitle = styled.h1`
 export const LCTitle = styled.h1`
     font-family: Moglan;
     font-style: normal;
-    font-size: 3.4em;
+    font-size: 10vw;
     line-height: 65px;
     color: #030324;
 
@@ -59,7 +59,7 @@ export const LCTitle = styled.h1`
     }
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        font-size: 4.7em;
+        font-size: 10vw;
         line-height: 130px;
     }
 
