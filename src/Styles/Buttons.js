@@ -13,7 +13,7 @@ export const ProjectButton = styled.button`
     align-items: center;
     justify-content: center;
     font-family: "Space Mono";
-    transition: border-radius 0.5s ease-in-out;
+    transition: border-radius 0.4s ease-in-out;
 
 &:hover {
     border-radius: 25px;
