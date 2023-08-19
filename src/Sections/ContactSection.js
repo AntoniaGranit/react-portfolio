@@ -7,7 +7,7 @@ import { ContactHeader, ContactInfo, MailLink, SoMeIconContainer } from '../Styl
 export const ContactSection = () => {
   return (
     <ContactContainer id="contactme">
-      <Slide direction="up"><LCTitle>Let&apos;s chat!</LCTitle></Slide>
+      <Slide triggerOnce direction="up" duration={2000}><LCTitle>Let&apos;s chat!</LCTitle></Slide>
       <ContactHeader>
         <ContactInfo>
           <MailLink href="mailto: antonia.granit@gmail.com">antonia.granit@gmail.com

@@ -11,7 +11,7 @@ export const LandingSection = () => {
   return (
     <LandingSectionContainer id="landing">
       <LeftContainer>
-        <Fade duration={2500}>
+        <Fade triggerOnce duration={2500}>
           <Slide direction="up">
             <AntoniaInfo>
               <AntoniaHeader>
