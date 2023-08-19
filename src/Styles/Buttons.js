@@ -16,7 +16,7 @@ export const ProjectButton = styled.button`
     transition: transform 0.2s ease-in-out;
 
 &:hover {
-    transform: scale(1.12);
+    border-radius: 25px;
 }
 
 ${(props) => props.github && css`
