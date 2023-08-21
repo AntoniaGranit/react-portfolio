@@ -42,7 +42,7 @@ export const BigTitle = styled.h1`
     }
 
     @media (min-width: 1024px) {
-        font-size: 10vw;
+        font-size: 8vw;
         line-height: 130px;
     }
 `
