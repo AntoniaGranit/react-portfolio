@@ -43,7 +43,7 @@ export const SkillsUl = styled.ul`
 `
 
 export const SkillsLi = styled.li`
-    margin-bottom: 7px;
+    margin-bottom: 8px;
     font-family: "Outfit";
     font-size: 19px;
     text-align: center;

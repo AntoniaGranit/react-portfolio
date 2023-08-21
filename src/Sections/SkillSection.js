@@ -16,6 +16,7 @@ export const SkillSection = () => {
           <SkillsLi>React</SkillsLi>
           <SkillsLi>Redux</SkillsLi>
           <SkillsLi>Styled Components</SkillsLi>
+          <SkillsLi>React Native</SkillsLi>
         </SkillsUl>
         <SkillsUl>
           <SkillsPink>Backend</SkillsPink>
@@ -27,26 +28,28 @@ export const SkillSection = () => {
         <SkillsUl>
           <SkillsPink>Toolbox</SkillsPink>
           <SkillsLi>GitHub</SkillsLi>
+          <SkillsLi>Git</SkillsLi>
+          <SkillsLi>Google Cloud</SkillsLi>
           <SkillsLi>Postman</SkillsLi>
           <SkillsLi>MongoDB Compass</SkillsLi>
           <SkillsLi>Figma</SkillsLi>
           <SkillsLi>Slack</SkillsLi>
-          <SkillsLi>Discord</SkillsLi>
           <SkillsLi>Adobe Photoshop</SkillsLi>
-          <SkillsLi>Adobe Illustrator</SkillsLi>
         </SkillsUl>
         <SkillsUl>
           <SkillsPink>More</SkillsPink>
-          <SkillsLi>Pair/Mob-Programming</SkillsLi>
+          <SkillsLi>Pair-Programming</SkillsLi>
+          <SkillsLi>Mob-Programming</SkillsLi>
           <SkillsLi>UX/UI Design</SkillsLi>
+          <SkillsLi>Responsive Design</SkillsLi>
           <SkillsLi>Agile Methodology</SkillsLi>
           <SkillsLi>Concept Development</SkillsLi>
         </SkillsUl>
         <SkillsUl>
           <SkillsPink>Upcoming</SkillsPink>
           <SkillsLi>TypeScript</SkillsLi>
-          <SkillsLi>React Native</SkillsLi>
-          <SkillsLi>Python</SkillsLi>
+          <SkillsLi>Next.js</SkillsLi>
+          <SkillsLi>Bootstrap</SkillsLi>
         </SkillsUl>
       </SkillsLists>
     </SkillsContainer>
