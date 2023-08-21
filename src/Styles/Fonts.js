@@ -32,7 +32,7 @@ export const MediumBlackTitle = styled.h3`
 export const BigTitle = styled.h1`
     font-family: Moglan;
     font-style: normal;
-    font-size: 12vw;
+    font-size: 23vw;
     line-height: 65px;
     color: #030324;
 
@@ -42,7 +42,7 @@ export const BigTitle = styled.h1`
     }
 
     @media (min-width: 1024px) {
-        font-size: 8vw;
+        font-size: 10vw;
         line-height: 130px;
     }
 `
@@ -50,7 +50,7 @@ export const BigTitle = styled.h1`
 export const LCTitle = styled.h1`
     font-family: Moglan;
     font-style: normal;
-    font-size: 10vw;
+    font-size: 20vw;
     line-height: 65px;
     color: #030324;
 
@@ -75,7 +75,7 @@ export const Paragraph = styled.p`
     font-style: normal;
     color: #030324;
     font-size: 1.2em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 `
 
 /* MENU LINKS */

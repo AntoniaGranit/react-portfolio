@@ -4,7 +4,6 @@ export const LandingSectionContainer = styled.section`
     display: flex;
     width: 100%;
     height: 990px;
-    background-color: rgb(255, 246, 240);
     top: 0;
 
     @media (max-width: 320px) {
@@ -38,14 +37,12 @@ export const ProjectContainer = styled.section`
     flex-direction: column;
     padding-top: 100px;
     align-items: center;
-    background-color: rgb(255, 246, 240);
 `
 
 export const SkillsContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 246, 240);
     padding-top: 100px;
     padding-bottom: 120px;
     height: fit-content;
@@ -64,5 +61,4 @@ export const ContactContainer = styled.section`
     gap: 40px;
     padding-top: 70px;
     height: 70vh;
-    background-color: rgb(255, 246, 240);
 `

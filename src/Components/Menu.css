@@ -8,14 +8,15 @@
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #0d0436;
+    background: #030324;
     transition: 0.3s ease-in-out;
   }
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #8d88a13c;
+    background: #030324;
   }
+
   
   /*
   Sidebar wrapper styles
@@ -29,20 +30,15 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: rgb(239, 226, 217);
+    background: rgb(255, 246, 240);
     padding: 1em 2em;
     height: 100%;
     font-size: 1.15em;
   }
   
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #ffebeb;
-  }
-  
   /* Wrapper for item list */
   .bm-item-list {
-    color: #b8b7ad;
+    color: rgb(255, 246, 240);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

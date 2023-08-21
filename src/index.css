@@ -30,11 +30,11 @@
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: rgb(255, 251, 247);
+    background-color: rgb(255, 246, 240);
 
     ::selection {
-      background: #030324;
-      color: rgb(255, 251, 247);
+      background-color: #030324;
+      color: rgb(255, 246, 240);
     }
   }
   

@@ -6,6 +6,7 @@ import { AntoniaGranit, FrontEndDev, Paragraph } from '../Styles/Fonts';
 import { LandingSectionContainer } from '../Styles/Sections';
 import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture';
 import Portrait from '../Assets/portrait_antonia.jpg';
+import Resume from '../Assets/AntoniaGranit_CV2023.pdf'
 
 export const LandingSection = () => {
   return (
@@ -47,10 +48,15 @@ export const LandingSection = () => {
                 </a>
                 <span className="sr-only">GitHub</span>
                 <Paragraph>|</Paragraph>
-                <a href="https://www.technigo.io/stories/antonia-from-healhtcare-to-development" target="_blank" rel="noreferrer">
-                  <Paragraph>In media</Paragraph>
+                <a href={Resume} target="_blank" rel="noreferrer">
+                  <Paragraph>CV</Paragraph>
                 </a>
-                <span className="sr-only">In media</span>
+                <span className="sr-only">CV</span>
+                <Paragraph>|</Paragraph>
+                <a href="https://www.technigo.io/stories/antonia-from-healhtcare-to-development" target="_blank" rel="noreferrer">
+                  <Paragraph>Story</Paragraph>
+                </a>
+                <span className="sr-only">Story</span>
               </SocialMediaIcons>
               {/* </Slide> */}
             </AntoniaInfo>
