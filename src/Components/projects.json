@@ -21,11 +21,7 @@
         "netlify": "https://ajmalandantoniasweatherapp.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-weather-app",
         "title": "Weather App",
-        "description": "An app showing weather information with the free API from OpenWeatherMap. This project gave us an insight into working with APIs, basic JSON, using fetch(), promises and so on. Built with fellow Technigo student Ajmal Zahir.",
-        "collaborator": {
-          "name": "Ajmal Zahir",
-          "github": "https://github.com/AjmalZ"
-        }
+        "description": "An app showing weather information with the free API from OpenWeatherMap. This project gave us an insight into working with APIs, basic JSON, using fetch(), promises and so on."
       },
       {
         "id": "4",
@@ -33,11 +29,7 @@
         "netlify": "https://hilarious-moonbeam-f0ccd7.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-music-releases",
         "title": "Music Releases",
-        "description": "My first React project, showcasing Spotify music releases from the spring of 2023. Repetition of map() and API usage. New concepts include React components, modules, JSX, and props. Built in collaboration with fellow Technigo student Malwina Polak.",
-        "collaborator": {
-          "name": "Malwina Polak",
-          "github": "https://github.com/malvinamaria"
-        }
+        "description": "My first React project, showcasing Spotify music releases from the spring of 2023. Repetition of map() and API usage. New concepts include React components, modules, JSX, and props."
       },
       {
         "id": "5",
@@ -53,7 +45,7 @@
         "netlify": "https://antonia-andreas-movie-site.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-movies",
         "title": "FlixList",
-        "description": "A project that familiarized us with React Router, and how to handle a site built in React with several pages. Built in collaboration with fellow Technigo student Andreas Axelsson.",
+        "description": "A project that familiarized us with React Router, and how to handle a site built in React with several pages.",
         "collaborator": {
           "name": "Andreas Axelsson",
           "github": "https://github.com/PerErikAndreas"
@@ -65,7 +57,7 @@
         "netlify": "https://santulanpoweryoga-antonia.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-design-handoff",
         "title": "Design Hand-off",
-        "description": "A collaboration with Technigo's UX Design Bootcamp student Alice Wennberg, who created the design. Created with React and styled entirely with styled components."
+        "description": "A collaboration with one of Technigo's UX Design Bootcamp students. Created with React and styled entirely with Styled Components."
       },
       {
         "id": "8",
@@ -89,11 +81,7 @@
         "netlify": "https://liongroupmazerunner.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-labyrinth",
         "title": "The Labyrinth",
-        "description": "An 8-bit-style labyrinth game created with React, Redux and a game API from our bootcamp. Created with fellow Technigo students Sara Battilotti and Ajmal Zahir.",
-        "collaborator": [
-            "https://github.com/AjmalZ",
-            "https://github.com/SaraBat"
-        ]
+        "description": "An 8-bit-style interactive labyrinth game created with React, Redux and a game API."
       },
       {
         "id": "11",
@@ -101,7 +89,7 @@
         "netlify": "https://itsalaries2020.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "IT Salaries 2020",
-        "description": "A RESTful API built using Node.js and Express, and my first time delving into the backend side of programming. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router. I recently migrated this project from JavaScript to TypeScript."
+        "description": "A RESTful API built using Node.js and Express. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router. I recently migrated this project from JavaScript to TypeScript."
       },
       {
         "id": "12",
@@ -117,14 +105,13 @@
         "netlify": "https://plantmama.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "PlantMama",
-        "description": "My final project at Technigo's frontend developer bootcamp. A fullstack app that helps plant-owners care for and keep track of their houseplants. The app also offers species-specific plant care tips and inspiration. Built in collaboration with fellow frontend developer Sara Battilotti, design by UX designer Marianela García."
+        "description": "My final project at Technigo's frontend developer bootcamp. A fullstack app that helps plant-owners care for and keep track of their houseplants. React and Redux on frontend, Node, MongoDB and Express on backend. Hosted on Google Cloud and MongoDB Atlas."
       },
       {
         "id": "14",
         "screenshot": "/Screenshots/wordee-screenshot.png",
         "netlify": "/Screenshots/wordee-QR.png",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",
-        "title": "wordee",
-        "description": "My first React Native project. An app that randomly generates a word and gives its definition. Built with two separate APIs, this gave me a chance to both test out React Native and combine multiple APIs. If I had money laying around, I would also try publishing the app on the App Store."
+        "description": "A React Native-built app that randomly generates a word and gives its definition. Built with two separate APIs, this gave me a chance to both test out React Native and combine multiple APIs. If I had money laying around, I would also try publishing the app on the App Store."
       }
 ]
