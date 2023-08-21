@@ -112,6 +112,7 @@
         "screenshot": "/Screenshots/wordee-screenshot.png",
         "netlify": "/Screenshots/wordee-QR.png",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",
+        "title": "wordee",
         "description": "A React Native-built app that randomly generates a word and gives its definition. Built with two separate APIs, this gave me a chance to both test out React Native and combine multiple APIs. If I had money laying around, I would also try publishing the app on the App Store."
       }
 ]
