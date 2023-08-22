@@ -32,7 +32,7 @@ export const MediumBlackTitle = styled.h3`
 export const BigTitle = styled.h1`
     font-family: Moglan;
     font-style: normal;
-    font-size: 23vw;
+    font-size: 20vw;
     line-height: 65px;
     color: #030324;
 

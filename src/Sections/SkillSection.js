@@ -38,12 +38,12 @@ export const SkillSection = () => {
         </SkillsUl>
         <SkillsUl>
           <SkillsPink>More</SkillsPink>
+          <SkillsLi>Agile Methodology</SkillsLi>
+          <SkillsLi>UX/UI Design</SkillsLi>
+          <SkillsLi>Web Accessibility</SkillsLi>
+          <SkillsLi>Responsive Design</SkillsLi>
           <SkillsLi>Pair-Programming</SkillsLi>
           <SkillsLi>Mob-Programming</SkillsLi>
-          <SkillsLi>UX/UI Design</SkillsLi>
-          <SkillsLi>Responsive Design</SkillsLi>
-          <SkillsLi>Agile Methodology</SkillsLi>
-          <SkillsLi>Concept Development</SkillsLi>
         </SkillsUl>
         <SkillsUl>
           <SkillsPink>Upcoming</SkillsPink>
