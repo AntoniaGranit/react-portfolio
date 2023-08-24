@@ -61,5 +61,5 @@ export const ProjectScreenshot = styled.img`
 export const ProjectButtons = styled.div`
     display: flex;
     width: fit-content;
-    gap: 10px;
+    gap: 15px;
 `

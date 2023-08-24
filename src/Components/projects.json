@@ -5,7 +5,7 @@
         "netlify": "https://antoniastravelbot.netlify.app/",
         "github": "https://github.com/AntoniaGranit/project-chatbot",
         "title": "TravelBot",
-        "description": "The first JavaScript project for Technigo's frontend developer bootcamp, meant to give students a grasp of JS fundamentals. Built using variables, functions, control flow, and conditional statements/ternary operators."
+        "description": "An interactive chatbot that provides personalized responses to user input. My first JavaScript project."
       },
       {
         "id": "2",
@@ -13,7 +13,7 @@
         "netlify": "https://antoniasguesswho.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-guess-who",
         "title": "Guess Who-game",
-        "description": "A digital take on the classic game 'Guess Who?', created using array methods such as filter(), forEach() and map(). This project taught us about JavaScript scope, and how to use objects and arrays."
+        "description": "A JavaScript-coded take on the game 'Guess Who?'. Employing essential array methods like filter(), forEach(), and map(). This project significantly enhanced my understanding of JavaScript scope, object manipulation, and array utilization."
       },
       {
         "id": "3",
@@ -21,7 +21,7 @@
         "netlify": "https://ajmalandantoniasweatherapp.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-weather-app",
         "title": "Weather App",
-        "description": "An app showing weather information with the free API from OpenWeatherMap. This project gave us an insight into working with APIs, basic JSON, using fetch(), promises and so on."
+        "description": "An app showcasing weather and forecast data fetched from a free API. Effectively introduced me to API integration, fundamental JSON handling, implementation of fetch(), and working with promises."
       },
       {
         "id": "4",
@@ -29,7 +29,7 @@
         "netlify": "https://hilarious-moonbeam-f0ccd7.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-music-releases",
         "title": "Music Releases",
-        "description": "My first React project, showcasing Spotify music releases from the spring of 2023. Repetition of map() and API usage. New concepts include React components, modules, JSX, and props."
+        "description": "My first React project, displaying music releases from one of Spotify's static APIs. Incorporated iterative map() operations and API integration, this time in React. Introduced foundational concepts like React components, modules, JSX, and props."
       },
       {
         "id": "5",
@@ -37,7 +37,7 @@
         "netlify": "https://theafrobeatsquiz.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-survey",
         "title": "The Afrobeats Quiz",
-        "description": "A simple survey using controlled form inputs. This project introduced the concept of state in React, and familiarized us with the useState hook and how to show different components depending on one's place in a survey."
+        "description": "A survey built in React using controlled form inputs. Explored React state management, employed the useState hook, and implemented dynamic component rendering."
       },
       {
         "id": "6",
@@ -45,19 +45,15 @@
         "netlify": "https://antonia-andreas-movie-site.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-movies",
         "title": "FlixList",
-        "description": "A project that familiarized us with React Router, and how to handle a site built in React with several pages.",
-        "collaborator": {
-          "name": "Andreas Axelsson",
-          "github": "https://github.com/PerErikAndreas"
-        }
+        "description": "A React application displaying the latest movie releases with data sourced from a free API. This collaborative project makes use of React Router for multi-page navigation."
       },
       {
         "id": "7",
         "screenshot": "/Screenshots/designhandoff-screenshot.png",
         "netlify": "https://santulanpoweryoga-antonia.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-design-handoff",
-        "title": "Design Hand-off",
-        "description": "A collaboration with one of Technigo's UX Design Bootcamp students. Created with React and styled entirely with Styled Components."
+        "title": "Design Handoff",
+        "description": "A design handoff collaboration with a student from Technigo's UX Design Bootcamp. Developed using React and styled entirely with Styled Components, demonstrating adept translation of design concepts into a functional and visually appealing application."
       },
       {
         "id": "8",
@@ -65,7 +61,7 @@
         "netlify": "https://antonias-reactquiz.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-redux-quiz",
         "title": "React-Redux Quiz",
-        "description": "A multiple-choice quiz game to test your React knowledge, made using Redux. My first project using Redux."
+        "description": "A multiple-choice quiz game designed to test the user's React knowledge, developed using Redux for state management."
       },
       {
         "id": "9",
@@ -73,7 +69,7 @@
         "netlify": "https://antonias-todoapp.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-todos",
         "title": "ToDo App",
-        "description": "A todo app made using React, Redux and styled components. This project gave us a chance to work with and edit the Redux store."
+        "description": "A todo app developed with React, Redux and Styled Components. This project provided hands-on experience with fundamental Redux concepts, including creating new slices, reducers and actions to streamline data handling and effectively manage state within a Redux environment."
       },
       {
         "id": "10",
@@ -81,7 +77,7 @@
         "netlify": "https://liongroupmazerunner.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-labyrinth",
         "title": "The Labyrinth",
-        "description": "An 8-bit-style interactive labyrinth game created with React, Redux and a game API."
+        "description": "An engaging 8-bit-style interactive labyrinth game created with React, Redux and a text-based adventure game API. This group project gave us an opportunity to collaborate on writing thunks to manage asynchronous actions, enriching the game's interactivity and user experience."
       },
       {
         "id": "11",
@@ -89,7 +85,7 @@
         "netlify": "https://itsalaries2020.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "IT Salaries 2020",
-        "description": "A RESTful API built using Node.js and Express. The frontend showcasing the API is built with React, and gave me a chance to continue practicing React Router. I recently migrated this project from JavaScript to TypeScript."
+        "description": "A RESTful API developed with Node.js and Express. The frontend showcasing the API is built with React and React Router. I recently migrated this project from JavaScript to TypeScript."
       },
       {
         "id": "12",
@@ -97,7 +93,7 @@
         "netlify": "https://twitterbutnicer.netlify.app/",
         "github": "https://github.com/AntoniaGranit/project-happy-thoughts",
         "title": "Happy Thoughts",
-        "description": "A Twitter-like message app where users can post, like, and delete messages. Using MongoDB on backend, this gave me a chance to delve deeper into setting up endpoints, storing data, and handling user input."
+        "description": "A Twitter-like messaging app enabling users to post, like, and delete messages. I used MongoDB on backend to configure endpoints, store data, and handle user input."
       },
       {
         "id": "13",
@@ -105,7 +101,7 @@
         "netlify": "https://plantmama.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "PlantMama",
-        "description": "My final project at Technigo's frontend developer bootcamp. A fullstack app that helps plant-owners care for and keep track of their houseplants. React and Redux on frontend, Node, MongoDB and Express on backend. Hosted on Google Cloud and MongoDB Atlas."
+        "description": "My final project at Technigo's Frontend Developer Bootcamp, PlantMama is a full-stack platform for houseplant enthusiasts. React and Redux on frontend, Node.js, Express, and MongoDB on backend. Hosted on Google Cloud and MongoDB Atlas. A collaboration with a fellow Developer student and a UX Design student."
       },
       {
         "id": "14",
@@ -113,6 +109,6 @@
         "netlify": "/Screenshots/wordee-QR.png",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",
         "title": "wordee",
-        "description": "A React Native-built app that randomly generates a word and gives its definition. Built with two separate APIs, this gave me a chance to both test out React Native and combine multiple APIs. If I had money laying around, I would also try publishing the app on the App Store."
+        "description": "A React Native app that generates a random word and gives its definition, synchronizing data across two separate APIs. Given the opportunity, I'd also consider App Store publication."
       }
 ]
