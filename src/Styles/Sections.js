@@ -35,7 +35,7 @@ export const LandingSectionContainer = styled.section`
 export const ProjectContainer = styled.section`
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 50px;
     align-items: center;
 `
 
@@ -43,7 +43,7 @@ export const SkillsContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 120px;
     height: fit-content;
 
