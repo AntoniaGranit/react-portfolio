@@ -19,7 +19,6 @@ export const ProjectList = styled.div`
 export const ProjectWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 20px;
     width: 360px;
     margin-top: 80px;

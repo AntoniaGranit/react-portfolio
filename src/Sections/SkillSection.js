@@ -1,12 +1,12 @@
 import React from 'react';
 import { SkillsContainer } from '../Styles/Sections';
-import { SkillTitleWrapper, SkillsLists, SkillsUl, SkillsLi } from '../Styles/SkillSection';
+import { SkillsLists, SkillsUl, SkillsLi } from '../Styles/SkillSection';
 import { BigTitle, SkillsPink } from '../Styles/Fonts';
 
 export const SkillSection = () => {
   return (
     <SkillsContainer id="skills">
-      <SkillTitleWrapper><BigTitle>Skills</BigTitle></SkillTitleWrapper>
+      <BigTitle>Skills</BigTitle>
       <SkillsLists>
         <SkillsUl>
           <SkillsPink>Frontend</SkillsPink>

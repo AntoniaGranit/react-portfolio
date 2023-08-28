@@ -1,17 +1,5 @@
 import styled from 'styled-components';
 
-export const SkillTitleWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
-
-    @media (min-width: 1024px) {
-        text-align: left;
-    }
-`
-
 export const SkillsLists = styled.div`
     display: flex;
     flex-direction: column;
