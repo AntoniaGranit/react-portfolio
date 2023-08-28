@@ -3,34 +3,25 @@ import styled from 'styled-components';
 export const LandingSectionContainer = styled.section`
     display: flex;
     width: 100%;
-    height: 990px;
+    height: 900px;
     top: 0;
 
-    @media (max-width: 320px) {
-        height: 1110px;
+    @media (max-width: 375px) {
+        height: 1000px;
     }
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        height: 80vh;
+        height: 100vh;
     }
 
     @media (min-width: 1024px) and (max-width: 1279px) {
-        height: 900px;
+        height: 880px;
     }
 
     @media (min-width: 1280px) {
         height: 100vh;
     }
 `
-
-// export const TechContainer = styled.section`
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     background-color: #ffd2c2;
-//     padding-top: 300px;
-//     padding-bottom: 300px;
-// `
 
 export const ProjectContainer = styled.section`
     display: flex;
@@ -46,7 +37,6 @@ export const SkillsContainer = styled.section`
     padding-top: 50px;
     padding-bottom: 120px;
     height: fit-content;
-
 
     @media (min-width: 1024px) {
         padding-top: 50px;

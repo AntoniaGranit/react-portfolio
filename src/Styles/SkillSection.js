@@ -22,14 +22,20 @@ export const SkillsLists = styled.div`
     margin-top: 50px;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        width: 90%;
+        width: 45%;
         gap: 40px;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px) and (max-width: 1279px) {
         display: flex;
         flex-direction: row;
-        text-align: left;
+        gap: 20px;
+    }
+
+
+    @media (min-width: 1280px) {
+        display: flex;
+        flex-direction: row;
         gap: 30px;
     }
 `
