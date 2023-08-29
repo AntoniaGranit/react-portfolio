@@ -4,7 +4,7 @@ export const ProjectButton = styled.button`
     background-color: #030324;
     color: white;
     font-size: 12px;
-    border-radius: 2px;
+    border-radius: 25px;
     height: 35px;
     width: 100px;
     border: none;
@@ -13,9 +13,9 @@ export const ProjectButton = styled.button`
     align-items: center;
     justify-content: center;
     font-family: "Space Mono";
-    transition: border-radius 0.4s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
 
 &:hover {
-    border-radius: 25px;
+    border-radius: 3px;
 }
 `
