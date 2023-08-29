@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const AntoniaGranit = styled.h3`
     font-family: Moglan;
     font-size: 10vw;
-    color: #030324;
 
     @media (min-width: 1024px) {
         font-size: 7vw;
@@ -14,19 +13,11 @@ export const AntoniaGranit = styled.h3`
 export const BlackTitle = styled.h2`
     font-family: SatoshiBlack;
     font-size: 1.6em;
-    color: #030324;
 `
 
 export const FrontEndDev = styled.h2`
     font-family: "Outfit";
     font-size: 1.7em;
-    color: #030324;
-`
-
-export const MediumBlackTitle = styled.h3`
-    font-family: SatoshiBlack;
-    font-size: 1.4em;
-    color: #030324;
 `
 
 export const BigTitle = styled.h1`
@@ -34,7 +25,6 @@ export const BigTitle = styled.h1`
     font-style: normal;
     font-size: 20vw;
     line-height: 65px;
-    color: #030324;
 
     @media (min-width: 668px) and (max-width: 1023px) {
         font-size: 13vw;
@@ -52,7 +42,6 @@ export const LCTitle = styled.h1`
     font-style: normal;
     font-size: 20vw;
     line-height: 65px;
-    color: #030324;
 
     @media (max-width: 380px) {
         font-size: 2.5em;
@@ -73,9 +62,20 @@ export const LCTitle = styled.h1`
 export const Paragraph = styled.p`
     font-family: "Outfit";
     font-style: normal;
-    color: #030324;
     font-size: 1.2em;
     line-height: 1.5em;
+`
+
+export const Link = styled.a`
+    font-family: "Outfit";
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #030324;
+
+    &visited {
+    color: #030324;
+    }
 `
 
 /* MENU LINKS */
@@ -100,12 +100,7 @@ export const MenuIcon = styled.p`
 
 /* LINKS AND HIGHLIGHTED TEXT */
 
-export const Pink = styled.mark`
-    background-color: #f85543;
-    color: white;
-`
-
-export const SkillsPink = styled.mark`
+export const SkillsTitle = styled.mark`
     background-color: #030324;
     color: white;
     font-family: Moglan;

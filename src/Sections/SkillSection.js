@@ -1,7 +1,7 @@
 import React from 'react';
 import { SkillsContainer } from '../Styles/Sections';
 import { SkillsLists, SkillsUl, SkillsLi } from '../Styles/SkillSection';
-import { BigTitle, SkillsPink } from '../Styles/Fonts';
+import { BigTitle, SkillsTitle } from '../Styles/Fonts';
 
 export const SkillSection = () => {
   return (
@@ -9,7 +9,7 @@ export const SkillSection = () => {
       <BigTitle>Skills</BigTitle>
       <SkillsLists>
         <SkillsUl>
-          <SkillsPink>Frontend</SkillsPink>
+          <SkillsTitle>Frontend</SkillsTitle>
           <SkillsLi>HTML5</SkillsLi>
           <SkillsLi>CSS3</SkillsLi>
           <SkillsLi>Javascript ES6</SkillsLi>
@@ -19,14 +19,14 @@ export const SkillSection = () => {
           <SkillsLi>React Native</SkillsLi>
         </SkillsUl>
         <SkillsUl>
-          <SkillsPink>Backend</SkillsPink>
+          <SkillsTitle>Backend</SkillsTitle>
           <SkillsLi>Node.js</SkillsLi>
           <SkillsLi>MongoDB</SkillsLi>
           <SkillsLi>Express</SkillsLi>
           <SkillsLi>RESTful API:s</SkillsLi>
         </SkillsUl>
         <SkillsUl>
-          <SkillsPink>Toolbox</SkillsPink>
+          <SkillsTitle>Toolbox</SkillsTitle>
           <SkillsLi>GitHub</SkillsLi>
           <SkillsLi>Git</SkillsLi>
           <SkillsLi>Google Cloud</SkillsLi>
@@ -37,7 +37,7 @@ export const SkillSection = () => {
           <SkillsLi>Adobe Photoshop</SkillsLi>
         </SkillsUl>
         <SkillsUl>
-          <SkillsPink>More</SkillsPink>
+          <SkillsTitle>More</SkillsTitle>
           <SkillsLi>Agile Methodology</SkillsLi>
           <SkillsLi>UX/UI Design</SkillsLi>
           <SkillsLi>Web Accessibility</SkillsLi>
@@ -46,7 +46,7 @@ export const SkillSection = () => {
           <SkillsLi>Mob-Programming</SkillsLi>
         </SkillsUl>
         <SkillsUl>
-          <SkillsPink>Upcoming</SkillsPink>
+          <SkillsTitle>Upcoming</SkillsTitle>
           <SkillsLi>TypeScript</SkillsLi>
           <SkillsLi>Next.js</SkillsLi>
           <SkillsLi>Bootstrap</SkillsLi>

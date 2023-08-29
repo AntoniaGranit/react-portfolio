@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import ColoredBlob from '../Assets/colored-blob2.jpg'
 
 export const LeftContainer = styled.div`
     display: flex;
@@ -13,35 +12,8 @@ export const LeftContainer = styled.div`
 
     @media (min-width: 1024px) {
         width: 100%;
-
     }
 `
-
-// export const RightImage = styled.div`
-//     display: none;
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     height: 100vh;
-//     left: 50%;
-//     background-image: url(${ColoredBlob});
-//     background-size: cover;
-
-//     @media (min-width: 668px) and (max-width: 1023px) {
-//         display: none;
-//     }
-
-//     @media (min-width: 1024px) and (max-width: 1279px) {
-//         display: flex;
-//         height: 900px;
-//     }
-
-//      @media (min-width: 1280px) {
-//         display: flex;
-//         height: 100vh;
-//     }
-
-// `
 
 export const AntoniaInfo = styled.div`
     display: flex;
@@ -94,25 +66,12 @@ export const AntoniaHeaderInfo = styled.div`
     }
 `
 
-export const SocialMediaIcons = styled.div`
+export const LinksContainer = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     width: 260px;
     margin-top: 40px;
-
-i {
-    transition: transform 0.2s ease-in-out;
-    color: #030324;
-}
-
-i:hover {
-    transform: scale(1.5);
-}
-
-i:visited {
-    color: black;
-}
 
 @media (min-width: 1024px) {
     margin-top: 0px;

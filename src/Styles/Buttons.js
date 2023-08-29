@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectButton = styled.button`
-    background-color: black;
+    background-color: #030324;
     color: white;
     font-size: 12px;
     border-radius: 2px;

@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { Slide, Fade } from 'react-awesome-reveal';
-import { LeftContainer, AntoniaInfo, AntoniaHeader, AntoniaTitleText, AntoniaHeaderInfo, SocialMediaIcons } from '../Styles/LandingSection';
-import { AntoniaGranit, FrontEndDev, Paragraph } from '../Styles/Fonts';
+import { LeftContainer, AntoniaInfo, AntoniaHeader, AntoniaTitleText, AntoniaHeaderInfo, LinksContainer } from '../Styles/LandingSection';
+import { AntoniaGranit, FrontEndDev, Paragraph, Link } from '../Styles/Fonts';
 import { LandingSectionContainer } from '../Styles/Sections';
 import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture';
 import Portrait from '../Assets/portrait_antonia.jpg';
@@ -26,7 +26,6 @@ export const LandingSection = () => {
                   <FrontEndDev>Frontend Developer</FrontEndDev>
                 </AntoniaTitleText>
               </AntoniaHeader>
-              {/* <Slide cascade triggerOnce> */}
               <AntoniaHeaderInfo>
                 <Paragraph>
             Hi! I&apos;m Antonia, a Frontend Developer with a passion for creating impactful digital experiences.
@@ -37,28 +36,27 @@ export const LandingSection = () => {
             Let&apos;s connect!
                 </Paragraph>
               </AntoniaHeaderInfo>
-              <SocialMediaIcons>
-                <a href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
-                  <Paragraph>LinkedIn</Paragraph>
-                </a>
+              <LinksContainer>
+                <Link href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
+                  LinkedIn
+                </Link>
                 <span className="sr-only">LinkedIn</span>
                 <Paragraph>|</Paragraph>
-                <a href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
-                  <Paragraph>GitHub</Paragraph>
-                </a>
+                <Link href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
+                  GitHub
+                </Link>
                 <span className="sr-only">GitHub</span>
                 <Paragraph>|</Paragraph>
-                <a href={Resume} target="_blank" rel="noreferrer">
-                  <Paragraph>CV</Paragraph>
-                </a>
+                <Link href={Resume} target="_blank" rel="noreferrer">
+                  CV
+                </Link>
                 <span className="sr-only">CV</span>
                 <Paragraph>|</Paragraph>
-                <a href="https://www.technigo.io/stories/antonia-from-healhtcare-to-development" target="_blank" rel="noreferrer">
-                  <Paragraph>Story</Paragraph>
-                </a>
+                <Link href="https://www.technigo.io/stories/antonia-from-healhtcare-to-development" target="_blank" rel="noreferrer">
+                  Story
+                </Link>
                 <span className="sr-only">Story</span>
-              </SocialMediaIcons>
-              {/* </Slide> */}
+              </LinksContainer>
             </AntoniaInfo>
           </Slide>
         </Fade>

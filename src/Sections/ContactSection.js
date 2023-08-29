@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-awesome-reveal';
 import { ContactContainer } from '../Styles/Sections';
-import { LCTitle, Paragraph } from '../Styles/Fonts';
+import { LCTitle, Link, Paragraph } from '../Styles/Fonts';
 import { ContactHeader, ContactInfo, MailLink, SoMeIconContainer } from '../Styles/ContactSection';
 
 export const ContactSection = () => {
@@ -14,14 +14,14 @@ export const ContactSection = () => {
           </MailLink>
         </ContactInfo>
         <SoMeIconContainer>
-          <a href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
-            <Paragraph>LinkedIn</Paragraph>
-          </a>
+          <Link href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </Link>
           <span className="sr-only">LinkedIn</span>
           <Paragraph>|</Paragraph>
-          <a href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
-            <Paragraph>GitHub</Paragraph>
-          </a>
+          <Link href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
+            GitHub
+          </Link>
           <span className="sr-only">GitHub</span>
         </SoMeIconContainer>
       </ContactHeader>
