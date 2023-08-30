@@ -101,7 +101,7 @@
         "netlify": "https://plantmama.netlify.app",
         "github": "https://github.com/AntoniaGranit/project-express-api",
         "title": "PlantMama",
-        "description": "My final project at Technigo's Frontend Developer Bootcamp, PlantMama is a full-stack platform for houseplant enthusiasts. React and Redux on frontend, Node.js, Express, and MongoDB on backend. Hosted on Google Cloud and MongoDB Atlas. A collaboration with a fellow Developer student and a UX Design student."
+        "description": "My final project at Technigo's Frontend Developer Bootcamp, PlantMama is a full-stack platform for houseplant enthusiasts. React and Redux on frontend, Node.js, Express, and MongoDB on backend. Deployed on Google Cloud and MongoDB Atlas. A collaboration with a fellow Developer student and a UX Design student."
       },
       {
         "id": "14",
