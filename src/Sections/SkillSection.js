@@ -27,6 +27,7 @@ export const SkillSection = () => {
         </SkillsUl>
         <SkillsUl>
           <SkillsTitle>Toolbox</SkillsTitle>
+          <SkillsLi>Visual Studio Code</SkillsLi>
           <SkillsLi>GitHub</SkillsLi>
           <SkillsLi>Git</SkillsLi>
           <SkillsLi>Google Cloud</SkillsLi>
