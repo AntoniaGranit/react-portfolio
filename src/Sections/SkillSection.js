@@ -50,7 +50,7 @@ export const SkillSection = () => {
           <SkillsTitle>Upcoming</SkillsTitle>
           <SkillsLi>TypeScript</SkillsLi>
           <SkillsLi>Next.js</SkillsLi>
-          <SkillsLi>Bootstrap</SkillsLi>
+          <SkillsLi>Tailwind CSS</SkillsLi>
         </SkillsUl>
       </SkillsLists>
     </SkillsContainer>
