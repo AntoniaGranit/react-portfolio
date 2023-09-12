@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProjectButton = styled.button`
+export const Button = styled.button`
     background-color: #030324;
     color: white;
     font-size: 12px;
@@ -8,7 +8,7 @@ export const ProjectButton = styled.button`
     height: 35px;
     width: 100px;
     border: none;
-    display: flex;
+    display: flex; 
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -18,4 +18,10 @@ export const ProjectButton = styled.button`
 &:hover {
     border-radius: 3px;
 }
+`
+
+export const ButtonContainer = styled.div`
+    display: flex;
+    width: fit-content;
+    gap: 15px;
 `

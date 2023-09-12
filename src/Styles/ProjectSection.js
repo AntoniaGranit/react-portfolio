@@ -56,9 +56,3 @@ export const ProjectScreenshot = styled.img`
         align-self: center;
     }
 `
-
-export const ProjectButtons = styled.div`
-    display: flex;
-    width: fit-content;
-    gap: 15px;
-`

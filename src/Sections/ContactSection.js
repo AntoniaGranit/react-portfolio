@@ -1,8 +1,9 @@
 import React from 'react';
 import { Slide } from 'react-awesome-reveal';
 import { ContactContainer } from '../Styles/Sections';
-import { LCTitle, Link, Paragraph } from '../Styles/Fonts';
-import { ContactHeader, ContactInfo, MailLink, SoMeIconContainer } from '../Styles/ContactSection';
+import { LCTitle } from '../Styles/Fonts';
+import { Button, ButtonContainer } from '../Styles/Buttons';
+import { ContactHeader, ContactInfo, MailLink } from '../Styles/ContactSection';
 
 export const ContactSection = () => {
   return (
@@ -13,17 +14,16 @@ export const ContactSection = () => {
           <MailLink href="mailto: antonia.granit@gmail.com">antonia.granit@gmail.com
           </MailLink>
         </ContactInfo>
-        <SoMeIconContainer>
-          <Link href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
+        <ButtonContainer>
+          <Button href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
             LinkedIn
-          </Link>
+          </Button>
           <span className="sr-only">LinkedIn</span>
-          <Paragraph>|</Paragraph>
-          <Link href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
+          <Button href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
             GitHub
-          </Link>
+          </Button>
           <span className="sr-only">GitHub</span>
-        </SoMeIconContainer>
+        </ButtonContainer>
       </ContactHeader>
     </ContactContainer>
   )

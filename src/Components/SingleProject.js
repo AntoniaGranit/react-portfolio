@@ -1,7 +1,7 @@
 import React from 'react';
-import { ProjectWrapper, ProjectInformation, ProjectScreenshot, ProjectButtons } from '../Styles/ProjectSection';
+import { ProjectWrapper, ProjectInformation, ProjectScreenshot } from '../Styles/ProjectSection';
 import { Paragraph, BlackTitle } from '../Styles/Fonts';
-import { ProjectButton } from '../Styles/Buttons';
+import { Button, ButtonContainer } from '../Styles/Buttons';
 
 export const SingleProject = ({ project }) => {
   return (
@@ -12,24 +12,24 @@ export const SingleProject = ({ project }) => {
         <BlackTitle>{project.title}</BlackTitle>
 
         <Paragraph>{project.description}</Paragraph>
-        <ProjectButtons>
+        <ButtonContainer>
           <a
             href={project.netlify}
             target="_blank"
             rel="noreferrer">
-            <ProjectButton type="button">
+            <Button type="button">
               View Live
-            </ProjectButton>
+            </Button>
           </a>
           <a
             href={project.github}
             target="_blank"
             rel="noreferrer">
-            <ProjectButton type="button">
+            <Button type="button">
               View Code
-            </ProjectButton>
+            </Button>
           </a>
-        </ProjectButtons>
+        </ButtonContainer>
       </ProjectInformation>
     </ProjectWrapper>
   )
