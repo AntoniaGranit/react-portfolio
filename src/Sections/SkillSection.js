@@ -47,7 +47,7 @@ export const SkillSection = () => {
           <SkillsLi>Mob-Programming</SkillsLi>
         </SkillsUl>
         <SkillsUl>
-          <SkillsTitle>Upcoming</SkillsTitle>
+          <SkillsTitle>Learning</SkillsTitle>
           <SkillsLi>TypeScript</SkillsLi>
           <SkillsLi>Next.js</SkillsLi>
           <SkillsLi>Tailwind CSS</SkillsLi>
