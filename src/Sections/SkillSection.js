@@ -51,6 +51,7 @@ export const SkillSection = () => {
           <SkillsLi>TypeScript</SkillsLi>
           <SkillsLi>Next.js</SkillsLi>
           <SkillsLi>Tailwind CSS</SkillsLi>
+          <SkillsLi>Vue</SkillsLi>
         </SkillsUl>
       </SkillsLists>
     </SkillsContainer>
