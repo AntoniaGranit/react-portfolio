@@ -11,11 +11,11 @@ export const LandingSectionContainer = styled.section`
     }
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        height: 100vh;
+        height: 800px;
     }
 
     @media (min-width: 1024px) and (max-width: 1279px) {
-        height: 880px;
+        height: 750px;
     }
 
     @media (min-width: 1280px) {

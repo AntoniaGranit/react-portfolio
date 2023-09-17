@@ -7,7 +7,7 @@ export const LeftContainer = styled.div`
     height: 100vh;
 
     @media (min-width: 668px) and (max-width: 1023px) {
-        width: 100%; 
+        width: 100%;
     }
 
     @media (min-width: 1024px) {
