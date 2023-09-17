@@ -15,13 +15,17 @@ export const ContactSection = () => {
           </MailLink>
         </ContactInfo>
         <ButtonContainer>
-          <Button href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/antoniagranit/" target="_blank" rel="noreferrer">
+            <Button>
             LinkedIn
-          </Button>
+            </Button>
+          </a>
           <span className="sr-only">LinkedIn</span>
-          <Button href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
+          <a href="https://github.com/AntoniaGranit" target="_blank" rel="noreferrer">
+            <Button>
             GitHub
-          </Button>
+            </Button>
+          </a>
           <span className="sr-only">GitHub</span>
         </ButtonContainer>
       </ContactHeader>
