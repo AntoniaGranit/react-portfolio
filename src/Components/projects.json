@@ -108,7 +108,15 @@
         "screenshot": "/Screenshots/wordee-screenshot.png",
         "netlify": "/Screenshots/wordee-QR.png",
         "github": "https://github.com/AntoniaGranit/react-native-wordee",
-        "title": "wordee",
+        "title": "Wordee",
         "description": "A React Native app that generates a random word and gives its definition, synchronizing data across two separate APIs. Given the opportunity, I'd also consider App Store publication."
+      },
+      {
+        "id": "15",
+        "screenshot": "/Screenshots/banner-screenshot.png",
+        "netlify": "https://yourpropertyabroad.com/costa-del-sol/property/ME1273",
+        "github": "https://github.com/AntoniaGranit/slide-out-banner",
+        "title": "Vue Banner",
+        "description": "A Vue.js component that slides out from the bottom of the screen and invites the user to a Facebook group relevant to the location of the property listing. Utilized to enhance user engagement on YourPropertyAbroad.com"
       }
 ]
