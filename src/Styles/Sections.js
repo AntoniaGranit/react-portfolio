@@ -26,8 +26,8 @@ export const LandingSectionContainer = styled.section`
 export const ProjectContainer = styled.section`
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
     align-items: center;
+    padding-top: 50px;
 `
 
 export const SkillsContainer = styled.section`
@@ -35,20 +35,15 @@ export const SkillsContainer = styled.section`
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
     height: fit-content;
-
-    @media (min-width: 1024px) {
-        padding-top: 50px;
-        padding-bottom: 150px;
-    }
 `
 
 export const ContactContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
     gap: 40px;
-    padding-top: 70px;
     height: 70vh;
 `
