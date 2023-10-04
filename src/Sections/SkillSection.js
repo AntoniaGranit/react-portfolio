@@ -13,9 +13,12 @@ export const SkillSection = () => {
           <SkillsLi>HTML5</SkillsLi>
           <SkillsLi>CSS3</SkillsLi>
           <SkillsLi>Javascript ES6</SkillsLi>
+          <SkillsLi>TypeScript</SkillsLi>
           <SkillsLi>React</SkillsLi>
           <SkillsLi>Redux</SkillsLi>
+          <SkillsLi>Next.js</SkillsLi>
           <SkillsLi>Styled Components</SkillsLi>
+          <SkillsLi>Tailwind CSS</SkillsLi>
           <SkillsLi>React Native</SkillsLi>
         </SkillsUl>
         <SkillsUl>
@@ -28,8 +31,9 @@ export const SkillSection = () => {
         <SkillsUl>
           <SkillsTitle>Toolbox</SkillsTitle>
           <SkillsLi>Visual Studio Code</SkillsLi>
-          <SkillsLi>GitHub</SkillsLi>
           <SkillsLi>Git</SkillsLi>
+          <SkillsLi>GitHub</SkillsLi>
+          <SkillsLi>GitLab</SkillsLi>
           <SkillsLi>Google Cloud</SkillsLi>
           <SkillsLi>Postman</SkillsLi>
           <SkillsLi>MongoDB Compass</SkillsLi>
@@ -45,13 +49,6 @@ export const SkillSection = () => {
           <SkillsLi>Responsive Design</SkillsLi>
           <SkillsLi>Pair-Programming</SkillsLi>
           <SkillsLi>Mob-Programming</SkillsLi>
-        </SkillsUl>
-        <SkillsUl>
-          <SkillsTitle>Learning</SkillsTitle>
-          <SkillsLi>TypeScript</SkillsLi>
-          <SkillsLi>Next.js</SkillsLi>
-          <SkillsLi>Tailwind CSS</SkillsLi>
-          <SkillsLi>Vue</SkillsLi>
         </SkillsUl>
       </SkillsLists>
     </SkillsContainer>
