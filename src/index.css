@@ -1,49 +1,52 @@
 @font-face {
-    font-family: SatoshiBold;
-    font-weight: bold;
-    src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf');
-  }
-  @font-face {
-    font-family: SatoshiMedium;
-    font-weight: medium;
-    src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf');
-  }
-  @font-face {
-    font-family: SatoshiBlack;
-    font-weight: bolder;
-    src: url('Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf');
-  }
-  @font-face {
-    font-family: Moglan;
-    src: url('Assets/Moglan_DEMO.ttf');
-  }
+  font-family: SatoshiBold;
+  font-weight: bold;
+  src: url("Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf");
+}
+@font-face {
+  font-family: SatoshiMedium;
+  font-weight: medium;
+  src: url("Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf");
+}
+@font-face {
+  font-family: SatoshiBlack;
+  font-weight: bolder;
+  src: url("Assets/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf");
+}
+@font-face {
+  font-family: Moglan;
+  src: url("Assets/Moglan_DEMO.ttf");
+}
 
-  @font-face {
-    font-family: Glacial Indifference;
-    src: url('Assets/GlacialIndifference-Regular.otf');
-  }
-  
+@font-face {
+  font-family: Glacial Indifference;
+  src: url("Assets/GlacialIndifference-Regular.otf");
+}
 
-  body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    background-color: rgb(255, 246, 240);
-    color: #030324;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: rgb(255, 246, 240);
+  color: #030324;
 
-    ::selection {
-      background-color: #030324;
-      color: rgb(255, 246, 240);
-    }
+  ::selection {
+    background-color: #030324;
+    color: rgb(255, 246, 240);
   }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  button:hover {
-    cursor: pointer;
-  }
-  
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#dribbble-link {
+  font-weight: 1000;
+  color: #030324;
+}

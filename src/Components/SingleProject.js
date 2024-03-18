@@ -4,6 +4,11 @@ import { Paragraph, BlackTitle } from '../Styles/Fonts';
 import { Button, ButtonContainer } from '../Styles/Buttons';
 
 export const SingleProject = ({ project }) => {
+  const renderDescriptionWithLink = (description) => {
+    const dribbbleUrl = 'https://dribbble.com/shots/14967815-Notes-App-concept';
+    return description.replace('here', `<a href="${dribbbleUrl}" target="_blank" rel="noreferrer" id="dribbble-link">here</a>`);
+  };
+
   return (
     <ProjectWrapper key={project.id}>
       <ProjectScreenshot
@@ -11,7 +16,10 @@ export const SingleProject = ({ project }) => {
       <ProjectInformation>
         <BlackTitle>{project.title}</BlackTitle>
 
-        <Paragraph>{project.description}</Paragraph>
+        {/* <Paragraph>{project.description}</Paragraph> */}
+        <Paragraph dangerouslySetInnerHTML={{ __html:
+          renderDescriptionWithLink(project.description) }} />
+
         <ButtonContainer>
           <a
             href={project.netlify}
