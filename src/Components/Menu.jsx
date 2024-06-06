@@ -15,7 +15,7 @@ const MenuComponent = () => {
   };
 
   const closeMenu = () => {
-    setTimeout(() => setMenuOpen(false), 1000)
+    setTimeout(() => setMenuOpen(false), 1000);
   };
 
   return (
@@ -24,44 +24,69 @@ const MenuComponent = () => {
         right
         width={260}
         isOpen={menuOpen}
-        onStateChange={handleStateChange}>
+        onStateChange={handleStateChange}
+      >
         <Slide triggerOnce duration={550}>
           <Link
             activeClass="active"
             to="skills"
             smooth
             duration={1000}
-            onClick={closeMenu}>
-            <MenuLink><MenuIcon><Gear /></MenuIcon> Skills</MenuLink>
+            onClick={closeMenu}
+          >
+            <MenuLink>
+              <MenuIcon>
+                <Gear />
+              </MenuIcon>{' '}
+              Skills
+            </MenuLink>
           </Link>
           <Link
             activeClass="active"
             to="projects"
             smooth
             duration={1000}
-            onClick={closeMenu}>
-            <MenuLink><MenuIcon><Kanban /></MenuIcon> Projects</MenuLink>
+            onClick={closeMenu}
+          >
+            <MenuLink>
+              <MenuIcon>
+                <Kanban />
+              </MenuIcon>{' '}
+              Projects
+            </MenuLink>
           </Link>
           <Link
             activeClass="active"
             to="contactme"
             smooth
             duration={1000}
-            onClick={closeMenu}>
-            <MenuLink><MenuIcon><Envelope /></MenuIcon> Contact me</MenuLink>
+            onClick={closeMenu}
+          >
+            <MenuLink>
+              <MenuIcon>
+                <Envelope />
+              </MenuIcon>{' '}
+              Contact me
+            </MenuLink>
           </Link>
           <Link
             activeClass="active"
             to="landing"
             smooth
             duration={1000}
-            onClick={closeMenu}>
-            <MenuLink><MenuIcon><ArrowUpSquare /></MenuIcon> To the top</MenuLink>
+            onClick={closeMenu}
+          >
+            <MenuLink>
+              <MenuIcon>
+                <ArrowUpSquare />
+              </MenuIcon>{' '}
+              To the top
+            </MenuLink>
           </Link>
         </Slide>
       </Menu>
     </div>
   );
-}
+};
 
 export default MenuComponent;
