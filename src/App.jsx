@@ -6,25 +6,24 @@ import SkillSection from "./Sections/SkillSection"
 import ContactSection from "./Sections/ContactSection"
 import MenuComponent from "./Components/Menu"
 
-// const Blob = styled.div`
-// background-color: #E1FF74;
-// box-shadow:
-//     0px 0px 60px 50px #E1FF74; /* outer cyan */
-// border-radius: 50%;
-// opacity: 90%;
-// width: 210px;
-// height: 210px;
-// position: absolute;
-// left: 65%;
-// top: 26%;
-// z-index: -10;
-// `
+const Blob = styled.div`
+	background-color: #e1ff74;
+	box-shadow: 0px 0px 60px 50px #e1ff74; /* outer cyan */
+	border-radius: 50%;
+	opacity: 90%;
+	width: 210px;
+	height: 210px;
+	position: absolute;
+	left: 65%;
+	top: 26%;
+	z-index: -10;
+`
 
 const App = () => {
 	return (
 		<div>
 			<MenuComponent />
-			{/* <Blob /> */}
+			<Blob />
 			<LandingSection />
 			<SkillSection />
 			<ProjectsSection />
