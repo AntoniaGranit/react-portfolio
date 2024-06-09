@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 /* TITLES */
-export const AntoniaGranit = styled.h3`
+export const LandingLink = styled.h3`
 	font-family: Moglan;
 	font-size: 10vw;
 	transition: transform 0.5s;

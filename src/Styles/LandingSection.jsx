@@ -5,6 +5,7 @@ export const LeftContainer = styled.div`
 	flex-direction: column;
 	width: 92%;
 	height: 100vh;
+	z-index: 1;
 
 	@media (min-width: 668px) and (max-width: 1023px) {
 		width: 100%;
