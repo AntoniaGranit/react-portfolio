@@ -4,9 +4,11 @@ import styled from 'styled-components'
 export const AntoniaGranit = styled.h3`
 	font-family: Moglan;
 	font-size: 10vw;
+	transition: transform 0.5s;
 
-	:hover {
+	&:hover {
 		font-style: italic;
+		transform: translateX(5px);
 	}
 
 	@media (min-width: 1024px) {

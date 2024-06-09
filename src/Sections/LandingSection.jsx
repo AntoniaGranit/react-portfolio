@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 import React from 'react'
-import { Fade, Reveal } from 'react-awesome-reveal'
+import { Fade, Slide } from 'react-awesome-reveal'
 import {
 	LeftContainer,
 	AntoniaInfo,
@@ -21,17 +21,17 @@ const LandingSection = () => {
 				{/* <AntoniaGranit>ANTONIA GRANIT</AntoniaGranit>
 				<FrontEndDev>Frontend Developer</FrontEndDev> */}
 				<Fade triggerOnce delay={200} duration={2500}>
-					{/* <Slide triggerOnce direction="up"> */}
-					<AntoniaInfo>
-						<AntoniaHeader>
-							{/* <ProfilePictureDiv>
+					<Slide triggerOnce direction="down">
+						<AntoniaInfo>
+							<AntoniaHeader>
+								{/* <ProfilePictureDiv>
 									<ProfilePicture
 										src={Portrait}
 										alt="Portrait of Antonia Granit"
 									/>
 								</ProfilePictureDiv> */}
-						</AntoniaHeader>
-						{/* <AntoniaHeaderInfo>
+							</AntoniaHeader>
+							{/* <AntoniaHeaderInfo>
 								<Paragraph>
 									Leveraging my background in academia, healthcare and youth
 									work, I bring a deep understanding of human behavior to all of
@@ -41,7 +41,7 @@ const LandingSection = () => {
 									bring ideas to life.
 								</Paragraph>
 							</AntoniaHeaderInfo> */}
-						{/* <LinksContainer>
+							{/* <LinksContainer>
 								<Link
 									href="https://www.linkedin.com/in/antoniagranit/"
 									target="_blank"
@@ -69,12 +69,12 @@ const LandingSection = () => {
 								</Link>
 								<span className="sr-only">Story</span>
 							</LinksContainer> */}
-						<AntoniaGranit>ABOUT</AntoniaGranit>
-						<AntoniaGranit>SKILLS</AntoniaGranit>
-						<AntoniaGranit>PROJECTS</AntoniaGranit>
-						<AntoniaGranit>CONTACT ME</AntoniaGranit>
-					</AntoniaInfo>
-					{/* </Slide> */}
+							<AntoniaGranit>ABOUT</AntoniaGranit>
+							<AntoniaGranit>SKILLS</AntoniaGranit>
+							<AntoniaGranit>PROJECTS</AntoniaGranit>
+							<AntoniaGranit>CONTACT ME</AntoniaGranit>
+						</AntoniaInfo>
+					</Slide>
 				</Fade>
 			</LeftContainer>
 		</LandingSectionContainer>
