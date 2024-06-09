@@ -1,52 +1,47 @@
 /* eslint-disable max-len */
+
 import React from 'react'
-import { Slide, Fade } from 'react-awesome-reveal'
+import { Fade, Reveal } from 'react-awesome-reveal'
 import {
 	LeftContainer,
 	AntoniaInfo,
-	AntoniaHeader,
-	AntoniaTitleText,
-	AntoniaHeaderInfo,
-	LinksContainer
+	AntoniaHeader
+	// AntoniaHeaderInfo,
+	// LinksContainer
 } from '../Styles/LandingSection'
-import { AntoniaGranit, FrontEndDev, Paragraph, Link } from '../Styles/Fonts'
+import { AntoniaGranit } from '../Styles/Fonts'
 import { LandingSectionContainer } from '../Styles/Sections'
-import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture'
-import Portrait from '../Assets/portrait_antonia.jpg'
+// import { ProfilePicture, ProfilePictureDiv } from '../Styles/ProfilePicture'
+// import Portrait from '../Assets/portrait_antonia.jpg'
 
 const LandingSection = () => {
 	return (
 		<LandingSectionContainer id="landing">
 			<LeftContainer>
-				<Fade triggerOnce duration={2500}>
-					<Slide triggerOnce direction="up">
-						<AntoniaInfo>
-							<AntoniaHeader>
-								<ProfilePictureDiv>
+				{/* <AntoniaGranit>ANTONIA GRANIT</AntoniaGranit>
+				<FrontEndDev>Frontend Developer</FrontEndDev> */}
+				<Fade triggerOnce delay={200} duration={2500}>
+					{/* <Slide triggerOnce direction="up"> */}
+					<AntoniaInfo>
+						<AntoniaHeader>
+							{/* <ProfilePictureDiv>
 									<ProfilePicture
 										src={Portrait}
 										alt="Portrait of Antonia Granit"
 									/>
-								</ProfilePictureDiv>
-								<AntoniaTitleText>
-									<AntoniaGranit>Antonia Granit</AntoniaGranit>
-									<FrontEndDev>Frontend Developer</FrontEndDev>
-								</AntoniaTitleText>
-							</AntoniaHeader>
-							<AntoniaHeaderInfo>
+								</ProfilePictureDiv> */}
+						</AntoniaHeader>
+						{/* <AntoniaHeaderInfo>
 								<Paragraph>
-									Hi! I&apos;m Antonia, a Frontend Developer with a passion for
-									creating impactful digital experiences. Leveraging my
-									background in academia, healthcare and youth work, I bring a
-									deep understanding of human behavior to my projects. I take
-									pride in designing products that excel in both aesthetics and
-									usability. As a tenacious problem solver, I embrace challenges
-									and enjoy collaborating with others to bring ideas to life. If
-									you&apos;re seeking a fresh perspective and a tailored
-									approach, look no further. Let&apos;s connect!
+									Leveraging my background in academia, healthcare and youth
+									work, I bring a deep understanding of human behavior to all of
+									my projects. I take pride in designing products that excel in
+									both aesthetics and usability. As a tenacious problem solver,
+									I embrace challenges and enjoy collaborating with others to
+									bring ideas to life.
 								</Paragraph>
-							</AntoniaHeaderInfo>
-							<LinksContainer>
+							</AntoniaHeaderInfo> */}
+						{/* <LinksContainer>
 								<Link
 									href="https://www.linkedin.com/in/antoniagranit/"
 									target="_blank"
@@ -73,9 +68,13 @@ const LandingSection = () => {
 									Story
 								</Link>
 								<span className="sr-only">Story</span>
-							</LinksContainer>
-						</AntoniaInfo>
-					</Slide>
+							</LinksContainer> */}
+						<AntoniaGranit>ABOUT</AntoniaGranit>
+						<AntoniaGranit>SKILLS</AntoniaGranit>
+						<AntoniaGranit>PROJECTS</AntoniaGranit>
+						<AntoniaGranit>CONTACT ME</AntoniaGranit>
+					</AntoniaInfo>
+					{/* </Slide> */}
 				</Fade>
 			</LeftContainer>
 		</LandingSectionContainer>

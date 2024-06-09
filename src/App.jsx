@@ -11,10 +11,10 @@ const Blob = styled.div`
 	box-shadow: 0px 0px 60px 50px #e1ff74; /* outer cyan */
 	border-radius: 50%;
 	opacity: 90%;
-	width: 210px;
-	height: 210px;
+	width: 300px;
+	height: 270px;
 	position: absolute;
-	left: 65%;
+	left: 62%;
 	top: 26%;
 	z-index: -10;
 `

@@ -5,6 +5,10 @@ export const AntoniaGranit = styled.h3`
 	font-family: Moglan;
 	font-size: 10vw;
 
+	:hover {
+		font-style: italic;
+	}
+
 	@media (min-width: 1024px) {
 		font-size: 7vw;
 	}

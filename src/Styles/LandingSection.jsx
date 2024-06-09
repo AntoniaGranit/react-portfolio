@@ -29,7 +29,7 @@ export const AntoniaInfo = styled.div`
 	}
 
 	@media (min-width: 1024px) {
-		width: 60%;
+		width: 50%;
 		margin: auto;
 		margin-top: 10%;
 	}
