@@ -1,7 +1,7 @@
-import React from "react"
-import { SkillsContainer } from "../Styles/Sections"
-import { SkillsLists, SkillsUl, SkillsLi } from "../Styles/SkillSection"
-import { BigTitle, SkillsTitle } from "../Styles/Fonts"
+import React from 'react'
+import { SkillsContainer } from '../Styles/Sections'
+import { SkillsLists, SkillsUl, SkillsLi } from '../Styles/SkillSection'
+import { BigTitle, SkillsTitle } from '../Styles/Fonts'
 
 const SkillSection = () => {
 	return (

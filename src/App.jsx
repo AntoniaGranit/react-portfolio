@@ -1,10 +1,10 @@
-import React from "react"
-// import styled from 'styled-components';
-import LandingSection from "./Sections/LandingSection"
-import ProjectsSection from "./Sections/ProjectsSection"
-import SkillSection from "./Sections/SkillSection"
-import ContactSection from "./Sections/ContactSection"
-import MenuComponent from "./Components/Menu"
+import React from 'react'
+import styled from 'styled-components'
+import LandingSection from './Sections/LandingSection'
+import ProjectsSection from './Sections/ProjectsSection'
+import SkillSection from './Sections/SkillSection'
+import ContactSection from './Sections/ContactSection'
+import MenuComponent from './Components/Menu'
 
 const Blob = styled.div`
 	background-color: #e1ff74;

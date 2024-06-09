@@ -1,9 +1,9 @@
-import React from "react"
-import data from "../Components/projects.json"
-import { ProjectList } from "../Styles/ProjectSection"
-import SingleProject from "../Components/SingleProject"
-import { ProjectContainer } from "../Styles/Sections"
-import { BigTitle } from "../Styles/Fonts"
+import React from 'react'
+import data from '../Components/projects.json'
+import { ProjectList } from '../Styles/ProjectSection'
+import SingleProject from '../Components/SingleProject'
+import { ProjectContainer } from '../Styles/Sections'
+import { BigTitle } from '../Styles/Fonts'
 
 const ProjectsSection = () => {
 	return (

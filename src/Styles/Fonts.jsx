@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 /* TITLES */
 export const AntoniaGranit = styled.h3`
@@ -16,7 +16,7 @@ export const BlackTitle = styled.h2`
 `
 
 export const FrontEndDev = styled.h2`
-	font-family: "Outfit";
+	font-family: 'Outfit';
 	font-size: 1.7em;
 `
 
@@ -60,14 +60,14 @@ export const LCTitle = styled.h1`
 
 /* BODY TEXT */
 export const Paragraph = styled.p`
-	font-family: "Outfit";
+	font-family: 'Outfit';
 	font-style: normal;
 	font-size: 1.2em;
 	line-height: 1.5em;
 `
 
 export const Link = styled.a`
-	font-family: "Outfit";
+	font-family: 'Outfit';
 	font-style: normal;
 	font-size: 1.2em;
 	line-height: 1.5em;
@@ -80,7 +80,7 @@ export const Link = styled.a`
 
 /* MENU LINKS */
 export const MenuLink = styled.p`
-	font-family: "Outfit";
+	font-family: 'Outfit';
 	color: #030324;
 	font-size: 1.1em;
 	display: flex;

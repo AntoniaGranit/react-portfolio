@@ -1,18 +1,17 @@
-import React from "react"
+import React from 'react'
 import {
 	ProjectWrapper,
 	ProjectInformation,
-	ProjectScreenshot,
-} from "../Styles/ProjectSection"
-import { Paragraph, BlackTitle } from "../Styles/Fonts"
-import { Button, ButtonContainer } from "../Styles/Buttons"
+	ProjectScreenshot
+} from '../Styles/ProjectSection'
+import { Paragraph, BlackTitle } from '../Styles/Fonts'
+import { Button, ButtonContainer } from '../Styles/Buttons'
 
 const SingleProject = ({ project }) => {
 	const renderDescriptionWithLink = (description) => {
-		const dribbbleUrl =
-			"https://dribbble.com/shots/14967815-Notes-App-concept"
+		const dribbbleUrl = 'https://dribbble.com/shots/14967815-Notes-App-concept'
 		return description.replace(
-			"here",
+			'here',
 			`<a href="${dribbbleUrl}" target="_blank" rel="noreferrer" id="dribbble-link">here</a>`
 		)
 	}
@@ -26,7 +25,7 @@ const SingleProject = ({ project }) => {
 				{/* <Paragraph>{project.description}</Paragraph> */}
 				<Paragraph
 					dangerouslySetInnerHTML={{
-						__html: renderDescriptionWithLink(project.description),
+						__html: renderDescriptionWithLink(project.description)
 					}}
 				/>
 

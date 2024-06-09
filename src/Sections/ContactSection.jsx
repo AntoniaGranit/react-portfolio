@@ -1,9 +1,9 @@
-import React from "react"
-import { Slide } from "react-awesome-reveal"
-import { ContactContainer } from "../Styles/Sections"
-import { LCTitle } from "../Styles/Fonts"
-import { Button, ButtonContainer } from "../Styles/Buttons"
-import { ContactHeader, MailLink } from "../Styles/ContactSection"
+import React from 'react'
+import { Slide } from 'react-awesome-reveal'
+import { ContactContainer } from '../Styles/Sections'
+import { LCTitle } from '../Styles/Fonts'
+import { Button, ButtonContainer } from '../Styles/Buttons'
+import { ContactHeader, MailLink } from '../Styles/ContactSection'
 
 const ContactSection = () => {
 	return (
