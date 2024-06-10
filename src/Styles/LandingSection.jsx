@@ -16,7 +16,7 @@ export const LeftContainer = styled.div`
 	}
 `
 
-export const AntoniaInfo = styled.div`
+export const NavContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 90%;

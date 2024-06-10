@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const ProfilePicture = styled.img`
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 	border-radius: 100%;
 `
 

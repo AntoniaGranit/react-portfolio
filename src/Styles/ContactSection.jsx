@@ -1,10 +1,21 @@
 import styled from 'styled-components'
 
-export const ContactHeader = styled.div`
+export const ContactDiv = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: auto;
+`
+
+export const ContactInfoWrapper = styled.div`
+	width: 100%;
+	background-color: rgb(255, 246, 240);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
 	gap: 20px;
+	z-index: 1;
 `
 
 export const MailLink = styled.a`
