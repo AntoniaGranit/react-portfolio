@@ -1,11 +1,5 @@
 import styled from 'styled-components'
 
-export const HomeLinkContainer = styled.div`
-	position: absolute;
-	top: 20px;
-	left: 20px;
-`
-
 export const LandingSectionContainer = styled.section`
 	display: flex;
 	flex-direction: column;
@@ -14,6 +8,8 @@ export const LandingSectionContainer = styled.section`
 	top: 0;
 	z-index: 1;
 	position: relative;
+	background-color: #e7ecb3;
+	color: #461c17;
 `
 
 export const AboutContainer = styled.section`
@@ -24,6 +20,8 @@ export const AboutContainer = styled.section`
 	justify-content: center;
 	margin: 0 auto;
 	z-index: 2;
+	background-color: #b4734e;
+	color: #3a090a;
 `
 
 export const ProjectContainer = styled.section`
@@ -33,14 +31,19 @@ export const ProjectContainer = styled.section`
 	align-items: center;
 	padding-top: 50px;
 	z-index: 3;
+	background-color: #3a1417;
+	color: #ef684a;
 `
 
 export const SkillsContainer = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 50px;
+	height: 100vh;
+	padding: 100px;
 	height: fit-content;
+	background-color: #ead9f0;
+	color: #000159;
 `
 
 export const ContactContainer = styled.section`
@@ -51,4 +54,6 @@ export const ContactContainer = styled.section`
 	height: 100vh;
 	position: relative;
 	z-index: 4;
+	background-color: #ffe0d0;
+	color: #ba3614;
 `

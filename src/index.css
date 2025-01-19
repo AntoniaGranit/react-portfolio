@@ -40,7 +40,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #030324;
+	color: #ef684a;
 }
 
 button:hover {
@@ -48,6 +48,6 @@ button:hover {
 }
 
 #dribbble-link {
-	font-weight: 1000;
-	color: #030324;
+	color: #ef684a;
+	text-decoration: underline;
 }

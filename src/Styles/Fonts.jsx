@@ -5,6 +5,7 @@ export const LandingLink = styled.h3`
 	font-family: Moglan;
 	font-size: 10vw;
 	transition: transform 0.5s;
+	cursor: pointer;
 
 	&:hover {
 		font-style: italic;
@@ -77,10 +78,10 @@ export const Link = styled.a`
 	font-style: normal;
 	font-size: 1.2em;
 	line-height: 1.5em;
-	color: #030324;
+	color: #ef684a;
 
 	&visited {
-		color: #030324;
+		color: #ef684a;
 	}
 `
 
@@ -107,8 +108,8 @@ export const MenuIcon = styled.p`
 /* LINKS AND HIGHLIGHTED TEXT */
 
 export const SkillsTitle = styled.mark`
-	background-color: #030324;
-	color: white;
+	background-color: #020352;
+	color: #ead9f0;
 	font-family: Moglan;
 	border-radius: 25px;
 	font-size: 1.5em;
