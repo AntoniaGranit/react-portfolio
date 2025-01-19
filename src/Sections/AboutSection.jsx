@@ -6,7 +6,7 @@ import { Paragraph } from '../Styles/Fonts'
 
 const AboutSection = () => {
 	return (
-		<AboutContainer>
+		<AboutContainer id="about">
 			<AboutWrapper>
 				<AntoniaHeaderInfo>
 					<Paragraph>
