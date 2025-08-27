@@ -3,11 +3,7 @@ import { Slide } from 'react-awesome-reveal'
 import { ContactContainer } from '../Styles/Sections'
 import { LCTitle } from '../Styles/Fonts'
 import { Button, ButtonContainer } from '../Styles/Buttons'
-import {
-	ContactDiv,
-	ContactInfoWrapper,
-	MailLink
-} from '../Styles/ContactSection'
+import { ContactDiv, ContactInfoWrapper } from '../Styles/ContactSection'
 
 const ContactSection = () => {
 	return (
@@ -17,9 +13,6 @@ const ContactSection = () => {
 					<LCTitle>Let&apos;s chat!</LCTitle>
 				</Slide>
 				<ContactInfoWrapper>
-					<MailLink href="mailto: antonia.granit@gmail.com">
-						antonia.granit@gmail.com
-					</MailLink>
 					<ButtonContainer>
 						<a
 							href="https://www.linkedin.com/in/antoniagranit/"

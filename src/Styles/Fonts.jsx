@@ -13,7 +13,7 @@ export const LandingLink = styled.h3`
 	}
 
 	@media (min-width: 1024px) {
-		font-size: 7vw;
+		font-size: 5vw;
 	}
 `
 
@@ -78,17 +78,17 @@ export const Link = styled.a`
 	font-style: normal;
 	font-size: 1.2em;
 	line-height: 1.5em;
-	color: #ef684a;
+	color: #652b26;
 
 	&visited {
-		color: #ef684a;
+		color: #652b26;
 	}
 `
 
 /* MENU LINKS */
 export const MenuLink = styled.p`
 	font-family: 'Outfit';
-	color: #030324;
+	color: #652b26;
 	font-size: 1.1em;
 	display: flex;
 	padding: 7px;
@@ -108,8 +108,8 @@ export const MenuIcon = styled.p`
 /* LINKS AND HIGHLIGHTED TEXT */
 
 export const SkillsTitle = styled.mark`
-	background-color: #020352;
-	color: #ead9f0;
+	background-color: #461c17;
+	color: #f2f6ce;
 	font-family: Moglan;
 	border-radius: 25px;
 	font-size: 1.5em;

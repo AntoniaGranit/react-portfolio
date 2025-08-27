@@ -29,8 +29,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-	background-color: rgb(255, 246, 240);
-	color: #030324;
+	background-color: #f2f6ce;
+	color: #461c17;
 
 	::selection {
 		background-color: #030324;

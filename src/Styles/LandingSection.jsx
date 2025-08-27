@@ -3,37 +3,17 @@ import styled from 'styled-components'
 export const LeftContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 92%;
+	justify-content: center;
 	height: 100vh;
 	z-index: 1;
-
-	@media (min-width: 668px) and (max-width: 1023px) {
-		width: 100%;
-	}
-
-	@media (min-width: 1024px) {
-		width: 100%;
-	}
 `
 
 export const NavContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 90%;
 	margin: auto;
-	margin-top: 7%;
-	margin-left: 7%;
-
-	@media (min-width: 668px) and (max-width: 1023px) {
-		margin: auto;
-		margin-top: 10%;
-	}
-
-	@media (min-width: 1024px) {
-		width: 50%;
-		margin: auto;
-		margin-top: 10%;
-	}
+	margin-left: 10%;
+	direction: rtl;
 `
 
 export const AntoniaHeader = styled.div`

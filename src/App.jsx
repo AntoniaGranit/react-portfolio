@@ -4,16 +4,19 @@ import AboutSection from './Sections/AboutSection'
 import ProjectsSection from './Sections/ProjectsSection'
 import SkillSection from './Sections/SkillSection'
 import ContactSection from './Sections/ContactSection'
+import { AppContainer, SectionContainer } from './Styles/Sections'
 
 const App = () => {
 	return (
-		<div>
+		<AppContainer>
 			<LandingSection />
-			<AboutSection />
-			<SkillSection />
-			<ProjectsSection />
-			<ContactSection />
-		</div>
+			<SectionContainer>
+				<AboutSection />
+				<SkillSection />
+				<ProjectsSection />
+				<ContactSection />
+			</SectionContainer>
+		</AppContainer>
 	)
 }
 
